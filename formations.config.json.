@@ -1,0 +1,54 @@
+{
+  "commanderEffects": {
+    "enabled": true,
+
+    "leadership": {
+      "attackBonusPercent": 10,
+      "defenseBonusPercent": 8,
+      "moraleBonusPercent": 12
+    },
+
+    "specializations": {
+      "infantry": 5,
+      "archers": 5,
+      "cavalry": 5,
+      "siege": 5
+    }
+  },
+
+  "battlePositions": {
+    "frontLine": {
+      "allowedUnits": [
+        "infantry",
+        "heavy_infantry"
+      ]
+    },
+
+    "middleLine": {
+      "allowedUnits": [
+        "cavalry",
+        "support"
+      ]
+    },
+
+    "backLine": {
+      "allowedUnits": [
+        "archers",
+        "siege"
+      ]
+    }
+  },
+
+  "formationSwitching": {
+    "enabled": true,
+    "allowPreBattleSwitch": true,
+    "allowMidBattleSwitch": false,
+    "switchCooldownSeconds": 60
+  },
+
+  "aiFormations": {
+    "enabled": true,
+    "adaptiveStrategy": true,
+    "counterEnemyFormation": true
+  }
+}
