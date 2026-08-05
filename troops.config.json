@@ -1,0 +1,97 @@
+{
+  "troops": {
+    "tiers": {
+      "minTier": 1,
+      "maxTier": 10
+    },
+
+    "defaultUnits": [
+      {
+        "id": "guardian_infantry",
+        "name": {
+          "ar": "مشاة الحراس",
+          "en": "Guardian Infantry"
+        },
+        "category": "infantry",
+        "tier": 1,
+
+        "stats": {
+          "health": 120,
+          "attack": 18,
+          "defense": 25,
+          "speed": 8,
+          "range": 1
+        },
+
+        "training": {
+          "timeSeconds": 30,
+          "foodCost": 20,
+          "woodCost": 10,
+          "ironCost": 5
+        },
+
+        "upkeep": {
+          "foodPerHour": 1
+        }
+      },
+
+      {
+        "id": "longbow_rangers",
+        "name": {
+          "ar": "رماة السهام",
+          "en": "Longbow Rangers"
+        },
+        "category": "archer",
+        "tier": 1,
+
+        "stats": {
+          "health": 80,
+          "attack": 30,
+          "defense": 10,
+          "speed": 10,
+          "range": 8
+        },
+
+        "training": {
+          "timeSeconds": 35,
+          "foodCost": 15,
+          "woodCost": 25,
+          "ironCost": 5
+        },
+
+        "upkeep": {
+          "foodPerHour": 1
+        }
+      },
+
+      {
+        "id": "swift_cavalry",
+        "name": {
+          "ar": "فرسان الريح",
+          "en": "Swift Cavalry"
+        },
+        "category": "cavalry",
+        "tier": 1,
+
+        "stats": {
+          "health": 140,
+          "attack": 24,
+          "defense": 18,
+          "speed": 18,
+          "range": 1
+        },
+
+        "training": {
+          "timeSeconds": 45,
+          "foodCost": 30,
+          "woodCost": 10,
+          "ironCost": 20
+        },
+
+        "upkeep": {
+          "foodPerHour": 2
+        }
+      }
+    ]
+  }
+}
