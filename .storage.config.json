@@ -1,0 +1,60 @@
+{
+  "protectionSystem": {
+    "enabled": true,
+
+    "protectedResources": {
+      "enabled": true,
+
+      "percentProtected": {
+        "wood": 20,
+        "stone": 20,
+        "iron": 15,
+        "gold": 10
+      }
+    },
+
+    "antiRaidProtection": {
+      "enabled": true,
+      "reduceEnemyLootPercent": 25
+    }
+  },
+
+  "advancedVault": {
+    "enabled": true,
+
+    "levels": {
+      "minimum": 1,
+      "maximum": 50
+    },
+
+    "effects": {
+      "increaseProtectedCapacity": true,
+      "increaseSecurity": true,
+      "reduceLosses": true
+    }
+  },
+
+  "inventoryManagement": {
+    "enabled": true,
+
+    "categories": [
+      "resources",
+      "items",
+      "equipment",
+      "special_materials"
+    ],
+
+    "sorting": true,
+    "autoManagement": true
+  },
+
+  "buildingTechnologyEffects": {
+    "enabled": true,
+
+    "bonuses": {
+      "warehouseLevelBonus": true,
+      "technologyStorageBonus": true,
+      "heroManagementBonus": true
+    }
+  }
+}
