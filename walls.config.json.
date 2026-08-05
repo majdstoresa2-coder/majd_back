@@ -1,0 +1,57 @@
+{
+  "defenseStructures": [
+    {
+      "id": "archer_tower",
+      "name": {
+        "ar": "برج الرماة",
+        "en": "Archer Tower"
+      },
+
+      "effects": {
+        "rangedAttackBonusPercent": 10,
+        "enemyApproachDamage": 5
+      }
+    },
+
+    {
+      "id": "cannon_tower",
+      "name": {
+        "ar": "برج المدفعية",
+        "en": "Cannon Tower"
+      },
+
+      "effects": {
+        "siegeDamageBonusPercent": 15,
+        "areaDamage": true
+      }
+    }
+  ],
+
+  "siegeDefense": {
+    "enabled": true,
+
+    "effects": {
+      "reduceEnemySiegeDamagePercent": 20,
+      "increaseDefenseDuration": true,
+      "slowEnemyAdvance": true
+    }
+  },
+
+  "repairSystem": {
+    "enabled": true,
+
+    "repairMethods": [
+      "resources",
+      "repair_items",
+      "instant_repair"
+    ],
+
+    "repairRatePerHour": 1000,
+    "automaticRepair": true
+  },
+
+  "wallBonuses": {
+    "defenseMoraleBonusPercent": 10,
+    "garrisonCapacityBonusPercent": 15
+  }
+}
