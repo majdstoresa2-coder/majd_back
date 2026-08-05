@@ -1,0 +1,71 @@
+{
+  "dynamicAreas": [
+    {
+      "id": "battle_frontier",
+      "name": {
+        "ar": "حدود المعارك",
+        "en": "Battle Frontier"
+      },
+      "type": "pvp_zone",
+      "pvpEnabled": true,
+      "eventEnabled": true,
+      "rewards": [
+        "gold",
+        "experience",
+        "rare_items"
+      ]
+    },
+
+    {
+      "id": "treasure_sea",
+      "name": {
+        "ar": "بحر الكنوز",
+        "en": "Treasure Sea"
+      },
+      "type": "exploration_zone",
+      "shipRequired": true,
+      "randomEvents": true,
+      "rewards": [
+        "treasure_map",
+        "gems",
+        "ancient_relic"
+      ]
+    }
+  ],
+
+  "spawnPoints": [
+    {
+      "id": "main_spawn",
+      "zone": "central-zone",
+      "safe": true
+    },
+
+    {
+      "id": "advanced_spawn",
+      "zone": "crystal-zone",
+      "safe": false
+    }
+  ],
+
+  "territorySystem": {
+    "enabled": true,
+    "allowAllianceControl": true,
+    "captureZones": true,
+    "territoryRewards": true
+  },
+
+  "mapFeatures": {
+    "fogOfWar": true,
+    "hiddenLocations": true,
+    "dynamicEvents": true,
+    "seasonChanges": true,
+    "weatherEffects": true
+  },
+
+  "metadata": {
+    "module": "World Map",
+    "project": "Majd World",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
