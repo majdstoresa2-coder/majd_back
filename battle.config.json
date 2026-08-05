@@ -1,0 +1,60 @@
+{
+  "battle": {
+    "enabled": true,
+
+    "battleTypes": [
+      {
+        "id": "field_battle",
+        "name": {
+          "ar": "معركة ميدانية",
+          "en": "Field Battle"
+        }
+      },
+      {
+        "id": "castle_siege",
+        "name": {
+          "ar": "حصار قلعة",
+          "en": "Castle Siege"
+        }
+      },
+      {
+        "id": "naval_battle",
+        "name": {
+          "ar": "معركة بحرية",
+          "en": "Naval Battle"
+        }
+      },
+      {
+        "id": "world_boss",
+        "name": {
+          "ar": "زعيم عالمي",
+          "en": "World Boss"
+        }
+      }
+    ],
+
+    "battleLimits": {
+      "maxBattleDurationMinutes": 30,
+      "maxPlayersPerSide": 100,
+      "maxTroopsPerArmy": 250000
+    },
+
+    "turnSystem": {
+      "enabled": false,
+      "realTimeCombat": true,
+      "tickRate": 20
+    }
+  },
+
+  "targeting": {
+    "allowManualTargeting": true,
+    "allowAutoTargeting": true,
+    "prioritySystem": [
+      "heroes",
+      "siege",
+      "archers",
+      "infantry",
+      "cavalry"
+    ]
+  }
+}
