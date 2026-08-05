@@ -1,0 +1,86 @@
+{
+  "advancedSkills": [
+    {
+      "id": "legendary_rage",
+      "name": {
+        "ar": "غضب الأسطورة",
+        "en": "Legendary Rage"
+      },
+      "rarity": "legendary",
+      "type": "ultimate",
+      "category": "combat",
+
+      "effect": {
+        "attackBonusPercent": 40,
+        "criticalChanceBonusPercent": 20,
+        "durationSeconds": 30
+      }
+    },
+
+    {
+      "id": "immortal_guard",
+      "name": {
+        "ar": "الحارس الخالد",
+        "en": "Immortal Guard"
+      },
+      "rarity": "legendary",
+      "type": "passive",
+      "category": "defense",
+
+      "effect": {
+        "damageReductionPercent": 25,
+        "healthBonusPercent": 20
+      }
+    }
+  ],
+
+  "allianceSkills": {
+    "enabled": true,
+
+    "skills": [
+      {
+        "id": "war_banner",
+        "name": {
+          "ar": "راية الحرب",
+          "en": "War Banner"
+        },
+        "effect": {
+          "allAllianceAttackPercent": 5
+        }
+      },
+
+      {
+        "id": "kingdom_protection",
+        "name": {
+          "ar": "حماية المملكة",
+          "en": "Kingdom Protection"
+        },
+        "effect": {
+          "defensePercent": 5
+        }
+      }
+    ]
+  },
+
+  "skillTree": {
+    "enabled": true,
+    "branches": [
+      {
+        "id": "war_path",
+        "focus": "combat"
+      },
+      {
+        "id": "guardian_path",
+        "focus": "defense"
+      },
+      {
+        "id": "merchant_path",
+        "focus": "economy"
+      },
+      {
+        "id": "discovery_path",
+        "focus": "exploration"
+      }
+    ]
+  }
+}
