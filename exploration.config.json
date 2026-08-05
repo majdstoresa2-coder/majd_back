@@ -1,0 +1,45 @@
+{
+  "discoveryJournal": {
+    "enabled": true,
+    "trackVisitedLocations": true,
+    "trackRareFinds": true,
+    "trackCompletedMissions": true,
+    "allowPlayerNotes": true
+  },
+
+  "explorationProgress": {
+    "worldCompletionReward": true,
+    "regionCompletionReward": true,
+    "hiddenAreaCompletionReward": true,
+    "achievementSystem": true
+  },
+
+  "globalEvents": {
+    "enabled": true,
+    "meteorShowers": true,
+    "lostExpeditions": true,
+    "ancientRelicEvents": true,
+    "worldBossDiscovery": true
+  },
+
+  "balancing": {
+    "rareLocationRespawnHours": 48,
+    "dailyExplorationLimit": 100,
+    "energyCostReductionResearch": true,
+    "dynamicDifficulty": true
+  },
+
+  "visualEffects": {
+    "fogAnimation": true,
+    "treasureGlow": true,
+    "ancientLightEffects": true,
+    "weatherTransitions": true
+  },
+
+  "metadata": {
+    "module": "Exploration",
+    "project": "Majd World System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
