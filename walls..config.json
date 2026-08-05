@@ -1,0 +1,57 @@
+{
+  "upgradeSystem": {
+    "enabled": true,
+
+    "requirements": {
+      "castleLevel": true,
+      "resourcesRequired": true,
+      "technologyRequired": true
+    },
+
+    "costs": {
+      "resources": [
+        "stone",
+        "iron",
+        "gold"
+      ],
+      "increasePerLevelPercent": 18
+    },
+
+    "benefitsPerLevel": {
+      "durabilityIncrease": 1000,
+      "defenseIncreasePercent": 2,
+      "siegeResistancePercent": 1
+    }
+  },
+
+  "defenseAchievements": {
+    "enabled": true,
+
+    "achievements": [
+      {
+        "id": "first_defense",
+        "condition": "survive_first_attack",
+        "reward": "defense_bonus_item"
+      },
+      {
+        "id": "fortress_master",
+        "condition": "reach_wall_level_50",
+        "reward": "special_wall_skin"
+      }
+    ]
+  },
+
+  "statistics": {
+    "trackDamageReceived": true,
+    "trackRepairs": true,
+    "trackSuccessfulDefenses": true,
+    "trackSiegeBattles": true
+  },
+
+  "metadata": {
+    "module": "Walls",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
