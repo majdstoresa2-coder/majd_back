@@ -1,0 +1,58 @@
+{
+  "walls": {
+    "enabled": true,
+
+    "levelSystem": {
+      "minimumLevel": 1,
+      "maximumLevel": 100
+    },
+
+    "wallTypes": [
+      {
+        "id": "stone_wall",
+        "name": {
+          "ar": "السور الحجري",
+          "en": "Stone Wall"
+        },
+        "description": {
+          "ar": "السور الأساسي لحماية المملكة.",
+          "en": "Basic kingdom protection wall."
+        }
+      },
+      {
+        "id": "fortified_wall",
+        "name": {
+          "ar": "السور المحصن",
+          "en": "Fortified Wall"
+        }
+      },
+      {
+        "id": "royal_wall",
+        "name": {
+          "ar": "السور الملكي",
+          "en": "Royal Wall"
+        }
+      }
+    ],
+
+    "mainWall": {
+      "id": "castle_wall",
+
+      "effects": {
+        "increaseDefense": true,
+        "reduceSiegeDamage": true,
+        "increaseProtectionTime": true
+      }
+    }
+  },
+
+  "wallStats": {
+    "baseDurability": 10000,
+
+    "growthPerLevel": {
+      "durability": 500,
+      "defensePower": 2,
+      "siegeResistance": 1
+    }
+  }
+}
