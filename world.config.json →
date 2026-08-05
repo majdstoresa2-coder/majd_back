@@ -1,0 +1,49 @@
+{
+  "security": {
+    "safeZones": true,
+    "combatProtectionForNewPlayers": true,
+    "antiCheat": {
+      "enabled": true,
+      "autoDetection": true,
+      "autoBan": false,
+      "logViolations": true
+    }
+  },
+
+  "spawn": {
+    "defaultIsland": "island_beginner_001",
+    "randomSpawn": false,
+    "respawnTime": 10
+  },
+
+  "worldRules": {
+    "friendlyFire": false,
+    "allowAllianceWars": true,
+    "allowPvP": true,
+    "allowTrading": true,
+    "allowResourceSharing": true
+  },
+
+  "performance": {
+    "autoSaveInterval": 300,
+    "entityUpdateRate": 30,
+    "maxEntitiesPerRegion": 500,
+    "dynamicLoading": true
+  },
+
+  "futureFeatures": {
+    "flyingMounts": false,
+    "navalBattles": true,
+    "worldBossRaids": true,
+    "crossServerEvents": true,
+    "dynamicWeatherDisasters": true
+  },
+
+  "metadata": {
+    "author": "Majd Platform",
+    "project": "Majd World System",
+    "configVersion": "1.0.0",
+    "lastUpdated": "2026-08-05",
+    "readyForProduction": true
+  }
+}
