@@ -1,0 +1,86 @@
+{
+  "islands": [
+    {
+      "id": "island_beginner_001",
+      "name": {
+        "ar": "جزيرة البداية",
+        "en": "Origin Island"
+      },
+      "type": "starter",
+      "difficulty": 1,
+      "recommendedLevel": {
+        "min": 1,
+        "max": 10
+      },
+      "climate": "temperate",
+      "size": "medium",
+      "safeZone": true,
+
+      "resources": [
+        "wood",
+        "stone",
+        "food"
+      ],
+
+      "wildlife": [
+        "deer",
+        "rabbit",
+        "birds"
+      ],
+
+      "enemies": [
+        {
+          "id": "forest_bandit",
+          "level": 2
+        },
+        {
+          "id": "wild_wolf",
+          "level": 4
+        }
+      ],
+
+      "structures": {
+        "castle": true,
+        "village": true,
+        "market": true,
+        "trainingGround": true,
+        "port": true
+      },
+
+      "spawn": {
+        "enabled": true,
+        "maxPlayers": 500
+      }
+    },
+
+    {
+      "id": "island_forest_002",
+      "name": {
+        "ar": "جزيرة الغابة",
+        "en": "Emerald Forest"
+      },
+      "type": "adventure",
+      "difficulty": 2,
+
+      "recommendedLevel": {
+        "min": 10,
+        "max": 20
+      },
+
+      "climate": "forest",
+
+      "resources": [
+        "wood",
+        "herbs",
+        "iron"
+      ],
+
+      "specialFeature": "Ancient Forest",
+
+      "boss": {
+        "id": "guardian_ent",
+        "level": 20
+      }
+    }
+  ]
+}
