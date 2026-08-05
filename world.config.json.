@@ -1,0 +1,70 @@
+{
+  "worldMap": {
+    "id": "majd-main-map",
+    "name": {
+      "ar": "الخريطة العظمى لعالم مجد",
+      "en": "Majd Grand World Map"
+    },
+
+    "mapType": "3D_Open_World",
+
+    "dimensions": {
+      "width": 100000,
+      "height": 100000,
+      "depth": 5000
+    },
+
+    "centerPoint": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+
+    "zones": [
+      {
+        "id": "central-zone",
+        "name": {
+          "ar": "قلب المملكة",
+          "en": "Kingdom Heart"
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "region": "central-realm",
+        "safeArea": true
+      },
+
+      {
+        "id": "forest-zone",
+        "name": {
+          "ar": "منطقة الغابات",
+          "en": "Forest Zone"
+        },
+        "position": {
+          "x": 2500,
+          "y": 0,
+          "z": 1200
+        },
+        "region": "emerald-region",
+        "safeArea": false
+      },
+
+      {
+        "id": "crystal-zone",
+        "name": {
+          "ar": "منطقة البلور",
+          "en": "Crystal Zone"
+        },
+        "position": {
+          "x": 5000,
+          "y": 800,
+          "z": 3000
+        },
+        "region": "crystal-highlands",
+        "safeArea": false
+      }
+    ]
+  }
+}
