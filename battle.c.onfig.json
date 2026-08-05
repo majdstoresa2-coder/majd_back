@@ -1,0 +1,61 @@
+{
+  "damageSystem": {
+    "baseDamageMultiplier": 1.0,
+    "criticalHit": {
+      "enabled": true,
+      "baseChancePercent": 10,
+      "criticalDamageMultiplier": 2.0
+    },
+
+    "armorReduction": {
+      "enabled": true,
+      "minimumDamagePercent": 5
+    },
+
+    "elementalModifiers": {
+      "enabled": false
+    }
+  },
+
+  "healing": {
+    "enabled": true,
+    "maximumHealingPercent": 40,
+    "allowRevive": false
+  },
+
+  "resistance": {
+    "physical": true,
+    "ranged": true,
+    "siege": true,
+    "naval": true
+  },
+
+  "environment": {
+    "weather": {
+      "rain": {
+        "archerAccuracyModifier": -10,
+        "movementModifier": -5
+      },
+      "snow": {
+        "movementModifier": -15,
+        "staminaRecoveryModifier": -10
+      },
+      "sandstorm": {
+        "visionModifier": -20,
+        "accuracyModifier": -15
+      }
+    },
+
+    "terrain": {
+      "forest": {
+        "archerBonus": 10
+      },
+      "mountain": {
+        "defenseBonus": 15
+      },
+      "desert": {
+        "staminaConsumptionModifier": 10
+      }
+    }
+  }
+}
