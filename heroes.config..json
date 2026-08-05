@@ -1,0 +1,51 @@
+{
+  "heroStats": {
+    "baseAttributes": {
+      "health": 1000,
+      "attack": 120,
+      "defense": 90,
+      "leadership": 200,
+      "speed": 15,
+      "stamina": 100
+    },
+
+    "growthPerLevel": {
+      "health": 45,
+      "attack": 8,
+      "defense": 6,
+      "leadership": 12,
+      "speed": 0.2,
+      "stamina": 2
+    }
+  },
+
+  "equipment": {
+    "slots": [
+      "weapon",
+      "helmet",
+      "armor",
+      "gloves",
+      "boots",
+      "accessory"
+    ],
+    "equipmentQuality": [
+      "common",
+      "rare",
+      "epic",
+      "legendary"
+    ]
+  },
+
+  "leadership": {
+    "maxArmyCapacity": 50000,
+    "commandBonus": true,
+    "moraleBonus": true
+  },
+
+  "advancement": {
+    "starUpgrade": true,
+    "maxStars": 10,
+    "awakeningEnabled": true,
+    "ascensionEnabled": true
+  }
+}
