@@ -1,0 +1,87 @@
+{
+  "buildings": {
+    "enabled": true,
+
+    "levelSystem": {
+      "minimumLevel": 1,
+      "maximumLevel": 50
+    },
+
+    "categories": [
+      {
+        "id": "command",
+        "name": {
+          "ar": "مباني القيادة",
+          "en": "Command Buildings"
+        }
+      },
+      {
+        "id": "military",
+        "name": {
+          "ar": "مباني عسكرية",
+          "en": "Military Buildings"
+        }
+      },
+      {
+        "id": "resource",
+        "name": {
+          "ar": "مباني الموارد",
+          "en": "Resource Buildings"
+        }
+      },
+      {
+        "id": "research",
+        "name": {
+          "ar": "مباني الأبحاث",
+          "en": "Research Buildings"
+        }
+      }
+    ],
+
+    "coreBuildings": [
+      {
+        "id": "main_castle",
+        "name": {
+          "ar": "القلعة الرئيسية",
+          "en": "Main Castle"
+        },
+        "category": "command",
+        "maxLevel": 50,
+
+        "effects": {
+          "unlocksBuildings": true,
+          "increasesArmyCapacity": true,
+          "increasesStorage": true
+        }
+      },
+
+      {
+        "id": "barracks",
+        "name": {
+          "ar": "الثكنة",
+          "en": "Barracks"
+        },
+        "category": "military",
+
+        "effects": {
+          "troopTrainingSpeed": 5,
+          "unlocksInfantry": true
+        }
+      },
+
+      {
+        "id": "archery_range",
+        "name": {
+          "ar": "ميدان الرماية",
+          "en": "Archery Range"
+        },
+        "category": "military",
+
+        "effects": {
+          "unlocksArchers": true,
+          "archerTrainingSpeed": 5
+        }
+      }
+    ]
+  }
+}
