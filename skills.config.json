@@ -1,0 +1,79 @@
+{
+  "skills": {
+    "enabled": true,
+
+    "categories": [
+      {
+        "id": "combat",
+        "name": {
+          "ar": "مهارات القتال",
+          "en": "Combat Skills"
+        }
+      },
+      {
+        "id": "defense",
+        "name": {
+          "ar": "مهارات الدفاع",
+          "en": "Defense Skills"
+        }
+      },
+      {
+        "id": "economy",
+        "name": {
+          "ar": "مهارات الاقتصاد",
+          "en": "Economy Skills"
+        }
+      },
+      {
+        "id": "exploration",
+        "name": {
+          "ar": "مهارات الاستكشاف",
+          "en": "Exploration Skills"
+        }
+      }
+    ],
+
+    "rarityLevels": [
+      "common",
+      "rare",
+      "epic",
+      "legendary"
+    ],
+
+    "skillLevels": {
+      "minimum": 1,
+      "maximum": 20
+    }
+  },
+
+  "heroSkills": [
+    {
+      "id": "battle_command",
+      "name": {
+        "ar": "أمر المعركة",
+        "en": "Battle Command"
+      },
+      "type": "active",
+      "category": "combat",
+
+      "effect": {
+        "attackBonusPercent": 15,
+        "durationSeconds": 20
+      }
+    },
+
+    {
+      "id": "iron_defense",
+      "name": {
+        "ar": "الدفاع الحديدي",
+        "en": "Iron Defense"
+      },
+      "type": "passive",
+      "category": "defense",
+
+      "effect": {
+        "defenseBonusPercent": 10
+      }
+    }
+  ]
+}
