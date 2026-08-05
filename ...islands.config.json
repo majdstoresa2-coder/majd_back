@@ -1,0 +1,76 @@
+{
+  "navigation": {
+    "travelSystem": "ships",
+    "allowFastTravel": false,
+    "unlockRoutesByExploration": true,
+    "minimumShipLevel": 1
+  },
+
+  "ports": {
+    "enabled": true,
+    "defaultTravelTime": 180,
+    "weatherAffectsTravel": true
+  },
+
+  "specialIslands": [
+    {
+      "id": "island_pirates_006",
+      "name": {
+        "ar": "جزيرة القراصنة",
+        "en": "Pirate Island"
+      },
+      "difficulty": 8,
+      "recommendedLevel": {
+        "min": 45,
+        "max": 60
+      },
+      "specialRule": "High Risk - High Reward",
+      "resources": [
+        "gold",
+        "treasure_map",
+        "rare_gems"
+      ],
+      "boss": {
+        "id": "pirate_king",
+        "level": 60
+      }
+    },
+    {
+      "id": "island_ancients_007",
+      "name": {
+        "ar": "جزيرة الحضارة القديمة",
+        "en": "Ancient Kingdom"
+      },
+      "difficulty": 10,
+      "recommendedLevel": {
+        "min": 70,
+        "max": 100
+      },
+      "resources": [
+        "ancient_relic",
+        "legendary_crystal"
+      ],
+      "boss": {
+        "id": "ancient_emperor",
+        "level": 100
+      },
+      "unlockCondition": "Complete Main Story"
+    }
+  ],
+
+  "worldConnections": {
+    "starter_to_forest": true,
+    "forest_to_crystal": true,
+    "crystal_to_volcano": true,
+    "volcano_to_frost": true,
+    "frost_to_pirates": true,
+    "pirates_to_ancients": true
+  },
+
+  "metadata": {
+    "configVersion": "1.0.0",
+    "project": "Majd World",
+    "module": "Islands",
+    "readyForProduction": true
+  }
+}
