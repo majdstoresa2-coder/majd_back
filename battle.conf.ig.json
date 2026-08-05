@@ -1,0 +1,54 @@
+{
+  "battleResults": {
+    "victoryConditions": {
+      "eliminateEnemyArmy": true,
+      "captureObjective": true,
+      "holdPosition": true,
+      "timeLimitVictory": true
+    },
+
+    "defeatConditions": {
+      "armyDestroyed": true,
+      "commanderDefeated": true,
+      "objectiveLost": true
+    }
+  },
+
+  "rewards": {
+    "experience": true,
+    "heroExperience": true,
+    "resourceLoot": true,
+    "equipmentDrops": true,
+    "achievementProgress": true
+  },
+
+  "battleLog": {
+    "enabled": true,
+    "recordDamage": true,
+    "recordHealing": true,
+    "recordSkillUsage": true,
+    "recordHeroActions": true,
+    "maxStoredLogs": 500
+  },
+
+  "statistics": {
+    "showTotalDamage": true,
+    "showUnitsLost": true,
+    "showUnitsSurvived": true,
+    "showHeroPerformance": true,
+    "showBattleDuration": true
+  },
+
+  "replay": {
+    "enabled": true,
+    "saveReplay": true,
+    "maxReplayDays": 30
+  },
+
+  "metadata": {
+    "module": "Battle",
+    "project": "Majd Combat System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
