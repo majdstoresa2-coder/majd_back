@@ -1,0 +1,78 @@
+{
+  "technology": {
+    "enabled": true,
+
+    "levelSystem": {
+      "minimumLevel": 1,
+      "maximumLevel": 100
+    },
+
+    "branches": [
+      {
+        "id": "military",
+        "name": {
+          "ar": "التقنيات العسكرية",
+          "en": "Military Technologies"
+        },
+        "description": {
+          "ar": "تطوير قوة الجيش.",
+          "en": "Improve army strength."
+        }
+      },
+      {
+        "id": "defense",
+        "name": {
+          "ar": "التقنيات الدفاعية",
+          "en": "Defense Technologies"
+        }
+      },
+      {
+        "id": "economy",
+        "name": {
+          "ar": "التقنيات الاقتصادية",
+          "en": "Economy Technologies"
+        }
+      },
+      {
+        "id": "exploration",
+        "name": {
+          "ar": "تقنيات الاستكشاف",
+          "en": "Exploration Technologies"
+        }
+      }
+    ],
+
+    "researchCenter": {
+      "enabled": true,
+      "buildingRequired": "academy",
+      "researchSlots": 3
+    }
+  },
+
+  "militaryTechnologies": [
+    {
+      "id": "advanced_training",
+      "name": {
+        "ar": "التدريب المتقدم",
+        "en": "Advanced Training"
+      },
+
+      "effects": {
+        "troopTrainingSpeedPercent": 10,
+        "troopExperienceGainPercent": 5
+      }
+    },
+
+    {
+      "id": "weapon_mastery",
+      "name": {
+        "ar": "إتقان الأسلحة",
+        "en": "Weapon Mastery"
+      },
+
+      "effects": {
+        "attackPercent": 8
+      }
+    }
+  ]
+}
