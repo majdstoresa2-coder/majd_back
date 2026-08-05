@@ -1,0 +1,66 @@
+{
+  "finalProductionCalculation": {
+    "enabled": true,
+
+    "formula": {
+      "baseProduction": true,
+      "buildingBonus": true,
+      "technologyBonus": true,
+      "heroBonus": true,
+      "workerEfficiency": true,
+      "environmentModifier": true
+    }
+  },
+
+  "environmentEffects": {
+    "enabled": true,
+
+    "factors": [
+      {
+        "id": "fertile_land",
+        "effect": {
+          "productionBonusPercent": 15
+        }
+      },
+      {
+        "id": "harsh_climate",
+        "effect": {
+          "productionReductionPercent": 10
+        }
+      }
+    ]
+  },
+
+  "productionRewards": {
+    "enabled": true,
+
+    "milestones": [
+      {
+        "productionAmount": 100000,
+        "reward": "resource_bonus"
+      },
+      {
+        "productionAmount": 1000000,
+        "reward": "special_production_item"
+      }
+    ]
+  },
+
+  "reports": {
+    "enabled": true,
+
+    "track": [
+      "hourly_production",
+      "daily_production",
+      "resource_consumption",
+      "efficiency_rate"
+    ]
+  },
+
+  "metadata": {
+    "module": "Production",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
