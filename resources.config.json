@@ -1,0 +1,40 @@
+{
+  "storage": {
+    "upgradeRequired": true,
+    "warehouseLevels": 50,
+    "defaultCapacityMultiplier": 1.0,
+    "upgradeCapacityMultiplier": 1.25,
+    "overflowProtection": true,
+    "resourceDecay": false
+  },
+
+  "production": {
+    "tickIntervalSeconds": 60,
+    "offlineProduction": true,
+    "offlineProductionLimitHours": 12,
+    "boostsEnabled": true,
+    "globalProductionEvents": true
+  },
+
+  "trading": {
+    "enabled": true,
+    "marketTaxPercent": 5,
+    "allowAllianceTrading": true,
+    "allowPlayerTrading": false,
+    "minimumTradeLevel": 10
+  },
+
+  "balancing": {
+    "startingProtectionHours": 24,
+    "resourceStealLimitPercent": 30,
+    "battleResourceLoss": true,
+    "safeStoragePercent": 20
+  },
+
+  "metadata": {
+    "module": "Resources",
+    "configVersion": "1.0.0",
+    "project": "Majd World",
+    "readyForProduction": true
+  }
+}
