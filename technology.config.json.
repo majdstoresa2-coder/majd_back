@@ -1,0 +1,78 @@
+{
+  "researchSystem": {
+    "enabled": true,
+
+    "costs": {
+      "resources": [
+        "wood",
+        "stone",
+        "iron",
+        "gold"
+      ],
+      "researchPoints": true,
+      "increasePerLevelPercent": 20
+    },
+
+    "duration": {
+      "baseSeconds": 600,
+      "increasePerLevelSeconds": 300,
+      "speedUpItems": true
+    }
+  },
+
+  "unlockSystem": {
+    "enabled": true,
+
+    "requirements": {
+      "academyLevel": true,
+      "technologyLevel": true,
+      "castleLevel": true
+    },
+
+    "unlockFeatures": [
+      "advanced_units",
+      "special_buildings",
+      "new_formations",
+      "hero_abilities"
+    ]
+  },
+
+  "researchRewards": {
+    "enabled": true,
+
+    "rewards": [
+      "resources",
+      "research_points",
+      "items",
+      "special_bonuses"
+    ],
+
+    "milestones": [
+      {
+        "level": 25,
+        "reward": "advanced_research_slot"
+      },
+      {
+        "level": 50,
+        "reward": "elite_technology"
+      },
+      {
+        "level": 100,
+        "reward": "master_research"
+      }
+    ]
+  },
+
+  "statistics": {
+    "trackCompletedResearch": true,
+    "trackResearchTime": true,
+    "trackResearchPower": true
+  },
+
+  "metadata": {
+    "module": "Technology",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
