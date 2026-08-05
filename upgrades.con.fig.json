@@ -1,0 +1,68 @@
+{
+  "upgradeRewards": {
+    "enabled": true,
+
+    "levelRewards": {
+      "resources": true,
+      "items": true,
+      "experience": true,
+      "specialRewards": true
+    },
+
+    "milestones": [
+      {
+        "level": 10,
+        "reward": "new_building_slot"
+      },
+      {
+        "level": 25,
+        "reward": "advanced_research"
+      },
+      {
+        "level": 50,
+        "reward": "special_abilities"
+      }
+    ]
+  },
+
+  "contentUnlocks": {
+    "enabled": true,
+
+    "unlockByLevel": true,
+    "unlockByAchievements": true,
+    "unlockByResearch": true,
+
+    "features": [
+      "new_buildings",
+      "advanced_troops",
+      "hero_skills",
+      "special_formations"
+    ]
+  },
+
+  "achievements": {
+    "enabled": true,
+
+    "track": [
+      "total_upgrades",
+      "highest_building_level",
+      "strongest_army",
+      "research_progress"
+    ],
+
+    "rewards": true
+  },
+
+  "statistics": {
+    "trackUpgradeCount": true,
+    "trackResourceSpent": true,
+    "trackPowerIncrease": true
+  },
+
+  "metadata": {
+    "module": "Upgrades",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
