@@ -1,0 +1,48 @@
+{
+  "unitProgression": {
+    "experience": {
+      "enabled": true,
+      "maxLevel": 20,
+      "experienceFromBattles": true,
+      "experienceLossOnDefeat": false
+    },
+
+    "promotion": {
+      "enabled": true,
+      "requiredLevel": 10,
+      "retainExperience": true
+    }
+  },
+
+  "morale": {
+    "enabled": true,
+    "baseMorale": 100,
+    "minimumMorale": 0,
+    "maximumMorale": 100,
+    "affectsAttack": true,
+    "affectsDefense": true
+  },
+
+  "maintenance": {
+    "foodConsumptionEnabled": true,
+    "weaponMaintenance": true,
+    "armorMaintenance": true,
+    "dailyMaintenanceCost": {
+      "gold": 50,
+      "iron": 20
+    }
+  },
+
+  "deployment": {
+    "maxArmySize": 250000,
+    "allowMixedUnits": true,
+    "reserveSystem": true
+  },
+
+  "metadata": {
+    "module": "Troops",
+    "project": "Majd Combat System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
