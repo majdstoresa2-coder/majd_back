@@ -1,0 +1,79 @@
+{
+  "world": {
+    "id": "majd-world",
+    "name": {
+      "ar": "عالم مجد",
+      "en": "Majd World"
+    },
+    "version": "1.0.0",
+    "status": "active",
+
+    "theme": {
+      "style": "Majd Original",
+      "worldType": "Persistent Online World",
+      "camera": "3D",
+      "timeSystem": "dynamic",
+      "dayNightCycle": true,
+      "weatherSystem": true,
+      "seasonSystem": true
+    },
+
+    "limits": {
+      "maxPlayersPerWorld": 100000,
+      "maxConcurrentPlayers": 5000,
+      "maxRegions": 200,
+      "maxIslands": 500,
+      "maxCastles": 100000,
+      "maxAlliances": 20000
+    },
+
+    "startingArea": {
+      "regionId": "central-realm",
+      "safeZone": true,
+      "startingLevel": 1
+    },
+
+    "progression": {
+      "maxPlayerLevel": 100,
+      "maxCastleLevel": 50,
+      "maxHeroLevel": 80,
+      "maxAllianceLevel": 30
+    },
+
+    "environment": {
+      "defaultClimate": "temperate",
+      "allowDynamicWeather": true,
+      "allowNaturalEvents": true,
+      "allowWorldEvents": true
+    },
+
+    "exploration": {
+      "fogOfWar": true,
+      "discoverRegions": true,
+      "unlockRewards": true
+    },
+
+    "economy": {
+      "mainCurrency": "Gold",
+      "premiumCurrency": "Gems",
+      "tradeEnabled": true,
+      "marketEnabled": true
+    },
+
+    "combat": {
+      "enabled": true,
+      "castleDefense": true,
+      "openWorldBattles": true,
+      "allianceWars": true
+    },
+
+    "systems": {
+      "quests": true,
+      "achievements": true,
+      "leaderboards": true,
+      "mail": true,
+      "notifications": true,
+      "chat": true
+    }
+  }
+}
