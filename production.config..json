@@ -1,0 +1,60 @@
+{
+  "efficiencySystem": {
+    "enabled": true,
+
+    "levels": {
+      "minimum": 1,
+      "maximum": 100
+    },
+
+    "productionBonusPerLevel": {
+      "percent": 2
+    }
+  },
+
+  "workers": {
+    "enabled": true,
+
+    "baseWorkers": 100,
+
+    "effects": {
+      "increaseProductionWithWorkers": true,
+      "workerEfficiencyPercent": 100
+    },
+
+    "training": {
+      "enabled": true,
+      "costResources": true,
+      "increaseEfficiency": true
+    }
+  },
+
+  "advancedBuildingsEffects": {
+    "enabled": true,
+
+    "bonuses": {
+      "productionBuildingLevel": true,
+      "automationBonus": true,
+      "maintenanceEfficiency": true
+    }
+  },
+
+  "technologyEffects": {
+    "enabled": true,
+
+    "bonuses": {
+      "resourceProduction": true,
+      "workerSpeed": true,
+      "storageEfficiency": true
+    }
+  },
+
+  "heroEffects": {
+    "enabled": true,
+
+    "skills": {
+      "economySkills": true,
+      "productionBoost": true
+    }
+  }
+}
