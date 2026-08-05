@@ -1,0 +1,51 @@
+{
+  "skillPoints": {
+    "enabled": true,
+    "startingPoints": 5,
+    "pointsPerLevel": 3,
+    "maximumPoints": 300
+  },
+
+  "upgradeSystem": {
+    "enabled": true,
+
+    "costs": {
+      "gold": true,
+      "skillBooks": true,
+      "researchPoints": true
+    },
+
+    "successRate": {
+      "enabled": false,
+      "guaranteedUpgrade": true
+    }
+  },
+
+  "unlockRequirements": {
+    "heroLevelRequired": true,
+    "minimumHeroLevel": 10,
+    "rarityRestriction": true,
+    "classRestriction": true
+  },
+
+  "combatIntegration": {
+    "affectTroops": true,
+    "affectFormations": true,
+    "affectBattleStrategy": true,
+    "allowSkillCombos": true
+  },
+
+  "statistics": {
+    "trackUsage": true,
+    "trackDamage": true,
+    "trackHealing": true,
+    "trackSupportEffects": true
+  },
+
+  "metadata": {
+    "module": "Skills",
+    "project": "Majd Combat System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
