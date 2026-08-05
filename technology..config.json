@@ -1,0 +1,81 @@
+{
+  "defenseTechnologies": [
+    {
+      "id": "fortification",
+      "name": {
+        "ar": "التحصينات",
+        "en": "Fortification"
+      },
+
+      "effects": {
+        "wallDefensePercent": 10,
+        "castleResistancePercent": 5
+      }
+    },
+
+    {
+      "id": "surveillance",
+      "name": {
+        "ar": "المراقبة المتقدمة",
+        "en": "Advanced Surveillance"
+      },
+
+      "effects": {
+        "scoutingDetectionPercent": 15,
+        "enemyInformationBonus": true
+      }
+    }
+  ],
+
+  "economyTechnologies": [
+    {
+      "id": "efficient_production",
+      "name": {
+        "ar": "الإنتاج الفعال",
+        "en": "Efficient Production"
+      },
+
+      "effects": {
+        "resourceProductionPercent": 10
+      }
+    },
+
+    {
+      "id": "trade_development",
+      "name": {
+        "ar": "تطوير التجارة",
+        "en": "Trade Development"
+      },
+
+      "effects": {
+        "tradeIncomePercent": 15,
+        "marketCapacityPercent": 10
+      }
+    }
+  ],
+
+  "explorationTechnologies": [
+    {
+      "id": "advanced_navigation",
+      "name": {
+        "ar": "الملاحة المتقدمة",
+        "en": "Advanced Navigation"
+      },
+
+      "effects": {
+        "explorationSpeedPercent": 20,
+        "mapDiscoveryPercent": 10
+      }
+    }
+  ],
+
+  "researchEffects": {
+    "levelIncreaseBonus": {
+      "attack": 1,
+      "defense": 1,
+      "production": 1
+    },
+
+    "stackBonuses": true
+  }
+}
