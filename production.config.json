@@ -1,0 +1,57 @@
+{
+  "production": {
+    "enabled": true,
+
+    "resources": [
+      {
+        "id": "wood",
+        "name": {
+          "ar": "الأخشاب",
+          "en": "Wood"
+        },
+        "baseProductionPerHour": 500
+      },
+      {
+        "id": "stone",
+        "name": {
+          "ar": "الحجارة",
+          "en": "Stone"
+        },
+        "baseProductionPerHour": 400
+      },
+      {
+        "id": "iron",
+        "name": {
+          "ar": "الحديد",
+          "en": "Iron"
+        },
+        "baseProductionPerHour": 250
+      },
+      {
+        "id": "gold",
+        "name": {
+          "ar": "الذهب",
+          "en": "Gold"
+        },
+        "baseProductionPerHour": 100
+      }
+    ],
+
+    "productionBuildings": {
+      "enabled": true,
+
+      "effects": {
+        "buildingLevelIncrease": true,
+        "technologyBonus": true,
+        "heroBonus": true
+      }
+    },
+
+    "storage": {
+      "enabled": true,
+
+      "baseCapacity": 10000,
+      "increasePerLevel": 500
+    }
+  }
+}
