@@ -1,0 +1,94 @@
+{
+  "resources": {
+    "wood": {
+      "id": "wood",
+      "name": {
+        "ar": "الخشب",
+        "en": "Wood"
+      },
+      "category": "basic",
+      "rarity": "common",
+      "maxStorage": 500000,
+      "productionPerHour": 1200,
+      "startingAmount": 1000,
+      "usedFor": [
+        "buildings",
+        "ships",
+        "walls",
+        "upgrades"
+      ]
+    },
+
+    "stone": {
+      "id": "stone",
+      "name": {
+        "ar": "الحجر",
+        "en": "Stone"
+      },
+      "category": "basic",
+      "rarity": "common",
+      "maxStorage": 500000,
+      "productionPerHour": 1000,
+      "startingAmount": 800,
+      "usedFor": [
+        "castles",
+        "roads",
+        "fortifications"
+      ]
+    },
+
+    "food": {
+      "id": "food",
+      "name": {
+        "ar": "الطعام",
+        "en": "Food"
+      },
+      "category": "basic",
+      "rarity": "common",
+      "maxStorage": 500000,
+      "productionPerHour": 1800,
+      "startingAmount": 1500,
+      "usedFor": [
+        "troops",
+        "heroes",
+        "population"
+      ]
+    },
+
+    "iron": {
+      "id": "iron",
+      "name": {
+        "ar": "الحديد",
+        "en": "Iron"
+      },
+      "category": "advanced",
+      "rarity": "uncommon",
+      "maxStorage": 300000,
+      "productionPerHour": 700,
+      "startingAmount": 300,
+      "usedFor": [
+        "weapons",
+        "armor",
+        "advancedBuildings"
+      ]
+    },
+
+    "gold": {
+      "id": "gold",
+      "name": {
+        "ar": "الذهب",
+        "en": "Gold"
+      },
+      "category": "premium",
+      "rarity": "rare",
+      "maxStorage": 100000,
+      "productionPerHour": 250,
+      "startingAmount": 100,
+      "usedFor": [
+        "market",
+        "research",
+        "specialBuildings"
+      ]
+    }
+  }
+}
