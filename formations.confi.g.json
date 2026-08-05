@@ -1,0 +1,65 @@
+{
+  "formationProgression": {
+    "enabled": true,
+    "maxLevel": 20,
+
+    "upgradeCosts": {
+      "gold": true,
+      "iron": true,
+      "researchPoints": true
+    },
+
+    "levelBonuses": {
+      "attackIncreasePerLevel": 1,
+      "defenseIncreasePerLevel": 1,
+      "moraleIncreasePerLevel": 0.5
+    }
+  },
+
+  "specialFormations": [
+    {
+      "id": "dragon_wall",
+      "name": {
+        "ar": "جدار التنين",
+        "en": "Dragon Wall"
+      },
+      "requirements": {
+        "heroLevel": 50,
+        "researchLevel": 10
+      },
+      "bonuses": {
+        "defensePercent": 30,
+        "counterAttackPercent": 15
+      }
+    },
+
+    {
+      "id": "storm_charge",
+      "name": {
+        "ar": "اندفاع العاصفة",
+        "en": "Storm Charge"
+      },
+      "requirements": {
+        "heroLevel": 40,
+        "cavalryLevel": 8
+      },
+      "bonuses": {
+        "speedPercent": 25,
+        "firstStrikeChance": 20
+      }
+    }
+  ],
+
+  "bossAI": {
+    "enabled": true,
+    "dynamicFormationChange": true,
+    "counterPlayerStrategy": true
+  },
+
+  "metadata": {
+    "module": "Formations",
+    "project": "Majd Combat System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
