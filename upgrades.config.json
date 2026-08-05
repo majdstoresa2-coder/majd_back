@@ -1,0 +1,63 @@
+{
+  "upgrades": {
+    "enabled": true,
+
+    "levelSystem": {
+      "minimumLevel": 1,
+      "maximumLevel": 100,
+      "experienceRequired": true
+    },
+
+    "upgradeTypes": [
+      {
+        "id": "building_upgrade",
+        "name": {
+          "ar": "تطوير المباني",
+          "en": "Building Upgrade"
+        }
+      },
+      {
+        "id": "troop_upgrade",
+        "name": {
+          "ar": "تطوير القوات",
+          "en": "Troop Upgrade"
+        }
+      },
+      {
+        "id": "hero_upgrade",
+        "name": {
+          "ar": "تطوير الأبطال",
+          "en": "Hero Upgrade"
+        }
+      },
+      {
+        "id": "technology_upgrade",
+        "name": {
+          "ar": "تطوير التقنيات",
+          "en": "Technology Upgrade"
+        }
+      }
+    ],
+
+    "buildingUpgrades": {
+      "enabled": true,
+
+      "effects": {
+        "increaseProduction": true,
+        "increaseCapacity": true,
+        "unlockFeatures": true,
+        "reduceConstructionTime": true
+      }
+    },
+
+    "castleUpgrade": {
+      "enabled": true,
+
+      "benefits": {
+        "unlockNewBuildings": true,
+        "increaseArmyLimit": true,
+        "increaseKingdomPower": true
+      }
+    }
+  }
+}
