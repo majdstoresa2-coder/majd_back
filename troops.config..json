@@ -1,0 +1,84 @@
+{
+  "advancedUnits": [
+    {
+      "id": "iron_guard",
+      "name": {
+        "ar": "الحرس الحديدي",
+        "en": "Iron Guard"
+      },
+      "category": "heavy_infantry",
+      "tier": 3,
+      "stats": {
+        "health": 320,
+        "attack": 42,
+        "defense": 65,
+        "speed": 6,
+        "range": 1
+      },
+      "unlockCastleLevel": 12
+    },
+    {
+      "id": "storm_ballista",
+      "name": {
+        "ar": "بالستا العاصفة",
+        "en": "Storm Ballista"
+      },
+      "category": "siege",
+      "tier": 4,
+      "stats": {
+        "health": 260,
+        "attack": 120,
+        "defense": 25,
+        "speed": 3,
+        "range": 10
+      },
+      "effectiveAgainst": [
+        "walls",
+        "towers"
+      ],
+      "unlockCastleLevel": 16
+    },
+    {
+      "id": "ocean_guard",
+      "name": {
+        "ar": "حراس المحيط",
+        "en": "Ocean Guard"
+      },
+      "category": "naval",
+      "tier": 3,
+      "stats": {
+        "health": 280,
+        "attack": 55,
+        "defense": 40,
+        "speed": 12,
+        "range": 4
+      },
+      "unlockPortLevel": 8
+    }
+  ],
+
+  "combatRelations": {
+    "infantry": {
+      "strongAgainst": ["archer"],
+      "weakAgainst": ["cavalry"]
+    },
+    "archer": {
+      "strongAgainst": ["cavalry"],
+      "weakAgainst": ["infantry"]
+    },
+    "cavalry": {
+      "strongAgainst": ["infantry"],
+      "weakAgainst": ["archer"]
+    },
+    "siege": {
+      "strongAgainst": ["buildings"],
+      "weakAgainst": ["cavalry"]
+    }
+  },
+
+  "trainingLimits": {
+    "maxQueuePerBarracks": 5,
+    "allowBatchTraining": true,
+    "instantTrainingItems": true
+  }
+}
