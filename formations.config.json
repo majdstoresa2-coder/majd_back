@@ -1,0 +1,64 @@
+{
+  "formations": {
+    "enabled": true,
+    "defaultFormation": "balanced",
+
+    "availableFormations": [
+      {
+        "id": "balanced",
+        "name": {
+          "ar": "التشكيل المتوازن",
+          "en": "Balanced Formation"
+        },
+        "description": {
+          "ar": "توازن بين الهجوم والدفاع.",
+          "en": "Balanced attack and defense."
+        },
+        "bonuses": {
+          "attackPercent": 5,
+          "defensePercent": 5,
+          "speedPercent": 0
+        }
+      },
+      {
+        "id": "assault",
+        "name": {
+          "ar": "تشكيل الهجوم",
+          "en": "Assault Formation"
+        },
+        "description": {
+          "ar": "يزيد القوة الهجومية على حساب الدفاع.",
+          "en": "High attack with lower defense."
+        },
+        "bonuses": {
+          "attackPercent": 15,
+          "defensePercent": -8,
+          "speedPercent": 3
+        }
+      },
+      {
+        "id": "fortress",
+        "name": {
+          "ar": "تشكيل الحصن",
+          "en": "Fortress Formation"
+        },
+        "description": {
+          "ar": "يركز على الصمود والدفاع.",
+          "en": "Maximum defensive stability."
+        },
+        "bonuses": {
+          "attackPercent": -5,
+          "defensePercent": 18,
+          "speedPercent": -5
+        }
+      }
+    ],
+
+    "unlockSystem": {
+      "enabled": true,
+      "startingFormation": "balanced",
+      "unlockByResearch": true,
+      "unlockByHeroLevel": true
+    }
+  }
+}
