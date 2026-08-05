@@ -1,0 +1,76 @@
+{
+  "regions": [
+    {
+      "id": "central-realm",
+      "name": {
+        "ar": "المملكة الوسطى",
+        "en": "Central Realm"
+      },
+      "type": "starter",
+      "difficulty": 1,
+      "recommendedLevel": {
+        "min": 1,
+        "max": 15
+      },
+
+      "climate": "temperate",
+
+      "description": {
+        "ar": "الموطن الأول للاعبين، منطقة آمنة لبناء القلاع وتعلم أساسيات العالم.",
+        "en": "The first homeland where players build their castles and learn the world."
+      },
+
+      "connectedIslands": [
+        "island_beginner_001",
+        "island_forest_002"
+      ],
+
+      "features": {
+        "safeZone": true,
+        "playerTrading": true,
+        "beginnerProtection": true,
+        "openCombat": false
+      },
+
+      "resources": [
+        "wood",
+        "stone",
+        "food"
+      ]
+    },
+
+    {
+      "id": "emerald-region",
+      "name": {
+        "ar": "إقليم الزمرد",
+        "en": "Emerald Region"
+      },
+      "type": "forest",
+      "difficulty": 3,
+
+      "recommendedLevel": {
+        "min": 15,
+        "max": 30
+      },
+
+      "climate": "forest",
+
+      "features": {
+        "ancientRuins": true,
+        "hiddenTreasures": true,
+        "monsterAreas": true
+      },
+
+      "resources": [
+        "wood",
+        "herbs",
+        "iron"
+      ],
+
+      "connectedIslands": [
+        "island_forest_002",
+        "island_crystal_003"
+      ]
+    }
+  ]
+}
