@@ -1,0 +1,68 @@
+{
+  "troopUpgrades": {
+    "enabled": true,
+
+    "tiers": {
+      "minimumTier": 1,
+      "maximumTier": 10
+    },
+
+    "effects": {
+      "increaseAttack": true,
+      "increaseDefense": true,
+      "increaseHealth": true,
+      "increaseTrainingSpeed": true
+    }
+  },
+
+  "heroUpgrades": {
+    "enabled": true,
+
+    "systems": {
+      "levelUpgrade": true,
+      "starUpgrade": true,
+      "skillUpgrade": true,
+      "equipmentUpgrade": true
+    },
+
+    "bonuses": {
+      "heroPowerIncrease": true,
+      "armyCapacityIncrease": true,
+      "skillEffectIncrease": true
+    }
+  },
+
+  "technologyUpgrades": {
+    "enabled": true,
+
+    "branches": [
+      "military",
+      "economy",
+      "defense",
+      "exploration"
+    ],
+
+    "effects": {
+      "unlockAbilities": true,
+      "increaseEfficiency": true,
+      "improveProduction": true
+    }
+  },
+
+  "upgradeCosts": {
+    "resources": [
+      "wood",
+      "stone",
+      "iron",
+      "gold"
+    ],
+
+    "increasePerLevelPercent": 20
+  },
+
+  "upgradeTime": {
+    "baseSeconds": 300,
+    "increasePerLevelSeconds": 120,
+    "speedUpItems": true
+  }
+}
