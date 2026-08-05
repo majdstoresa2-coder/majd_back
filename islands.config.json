@@ -1,0 +1,64 @@
+{
+  "environment": {
+    "biomes": [
+      {
+        "id": "green_plains",
+        "name": "السهول الخضراء",
+        "difficulty": 1,
+        "resources": ["wood", "stone", "food"],
+        "weather": ["sunny", "rain"]
+      },
+      {
+        "id": "golden_desert",
+        "name": "الصحراء الذهبية",
+        "difficulty": 3,
+        "resources": ["gold", "sand", "crystal"],
+        "weather": ["hot", "sandstorm"]
+      },
+      {
+        "id": "frost_peaks",
+        "name": "القمم الجليدية",
+        "difficulty": 5,
+        "resources": ["ice", "iron", "silver"],
+        "weather": ["snow", "blizzard"]
+      },
+      {
+        "id": "volcanic_lands",
+        "name": "الأراضي البركانية",
+        "difficulty": 7,
+        "resources": ["obsidian", "lava_crystal"],
+        "weather": ["ash", "heat"]
+      }
+    ]
+  },
+
+  "resources": {
+    "main": [
+      "wood",
+      "stone",
+      "iron",
+      "gold",
+      "food"
+    ],
+    "rare": [
+      "crystal",
+      "obsidian",
+      "silver",
+      "ancient_relic"
+    ]
+  },
+
+  "travel": {
+    "walking": true,
+    "ships": true,
+    "bridges": true,
+    "teleportGates": false
+  },
+
+  "events": {
+    "worldBoss": true,
+    "seasonalEvents": true,
+    "treasureHunts": true,
+    "meteorShowers": true
+  }
+}
