@@ -1,0 +1,86 @@
+{
+  "connections": [
+    {
+      "from": "central-zone",
+      "to": "forest-zone",
+      "type": "land_route",
+      "travelTime": 300,
+      "unlockLevel": 1
+    },
+
+    {
+      "from": "forest-zone",
+      "to": "crystal-zone",
+      "type": "mountain_path",
+      "travelTime": 600,
+      "unlockLevel": 20
+    },
+
+    {
+      "from": "crystal-zone",
+      "to": "firelands-zone",
+      "type": "ship_route",
+      "travelTime": 900,
+      "unlockLevel": 40
+    },
+
+    {
+      "from": "firelands-zone",
+      "to": "frozen-zone",
+      "type": "ancient_route",
+      "travelTime": 1200,
+      "unlockLevel": 60
+    }
+  ],
+
+  "ports": [
+    {
+      "id": "central-port",
+      "location": "central-zone",
+      "shipsAvailable": true,
+      "tradeEnabled": true
+    },
+
+    {
+      "id": "crystal-port",
+      "location": "crystal-zone",
+      "shipsAvailable": true,
+      "tradeEnabled": true
+    },
+
+    {
+      "id": "pirate-port",
+      "location": "pirate-region",
+      "shipsAvailable": true,
+      "specialMarket": true
+    }
+  ],
+
+  "explorationPoints": [
+    {
+      "id": "ancient_ruins_001",
+      "type": "ruins",
+      "reward": [
+        "ancient_relic",
+        "experience"
+      ]
+    },
+
+    {
+      "id": "hidden_cave_001",
+      "type": "cave",
+      "reward": [
+        "crystal",
+        "rare_items"
+      ]
+    },
+
+    {
+      "id": "lost_temple_001",
+      "type": "temple",
+      "reward": [
+        "legendary_item"
+      ]
+    }
+  ]
+}
