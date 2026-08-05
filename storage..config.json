@@ -1,0 +1,56 @@
+{
+  "upgradeSystem": {
+    "enabled": true,
+
+    "requirements": {
+      "warehouseLevel": true,
+      "castleLevel": true,
+      "technologyLevel": true
+    },
+
+    "costs": {
+      "resources": [
+        "wood",
+        "stone",
+        "iron",
+        "gold"
+      ],
+      "increasePerLevelPercent": 15
+    },
+
+    "benefitsPerLevel": {
+      "capacityIncrease": 1000,
+      "protectionIncreasePercent": 2,
+      "managementEfficiencyPercent": 1
+    }
+  },
+
+  "storageRewards": {
+    "enabled": true,
+
+    "milestones": [
+      {
+        "capacity": 100000,
+        "reward": "storage_bonus_item"
+      },
+      {
+        "capacity": 1000000,
+        "reward": "advanced_vault_upgrade"
+      }
+    ]
+  },
+
+  "statistics": {
+    "trackCapacityUsage": true,
+    "trackProtectedResources": true,
+    "trackLootLoss": true,
+    "trackStorageGrowth": true
+  },
+
+  "metadata": {
+    "module": "Storage",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
