@@ -1,0 +1,111 @@
+{
+  "regions": [
+    {
+      "id": "crystal-highlands",
+      "name": {
+        "ar": "مرتفعات البلور",
+        "en": "Crystal Highlands"
+      },
+      "type": "mountain",
+      "difficulty": 5,
+
+      "recommendedLevel": {
+        "min": 30,
+        "max": 45
+      },
+
+      "climate": "cold",
+
+      "description": {
+        "ar": "منطقة جبلية تحتوي على مناجم نادرة وممرات مخفية.",
+        "en": "A mountain region with rare mines and hidden paths."
+      },
+
+      "connectedIslands": [
+        "island_crystal_003",
+        "island_volcano_004"
+      ],
+
+      "features": {
+        "miningZones": true,
+        "rareResources": true,
+        "eliteMonsters": true,
+        "openCombat": true
+      },
+
+      "resources": [
+        "crystal",
+        "silver",
+        "iron"
+      ]
+    },
+
+    {
+      "id": "firelands-region",
+      "name": {
+        "ar": "إقليم اللهب",
+        "en": "Firelands"
+      },
+      "type": "volcanic",
+      "difficulty": 7,
+
+      "recommendedLevel": {
+        "min": 45,
+        "max": 65
+      },
+
+      "climate": "volcanic",
+
+      "description": {
+        "ar": "أرض خطيرة مليئة بالبراكين والموارد الأسطورية.",
+        "en": "A dangerous volcanic land filled with legendary resources."
+      },
+
+      "features": {
+        "lavaZones": true,
+        "bossAreas": true,
+        "rareMining": true
+      },
+
+      "resources": [
+        "obsidian",
+        "gold",
+        "lava_crystal"
+      ],
+
+      "connectedIslands": [
+        "island_volcano_004",
+        "island_frost_005"
+      ]
+    },
+
+    {
+      "id": "frozen-empire",
+      "name": {
+        "ar": "الإمبراطورية المتجمدة",
+        "en": "Frozen Empire"
+      },
+      "type": "frost",
+      "difficulty": 9,
+
+      "recommendedLevel": {
+        "min": 65,
+        "max": 100
+      },
+
+      "climate": "snow",
+
+      "features": {
+        "blizzards": true,
+        "legendaryBosses": true,
+        "ancientSecrets": true
+      },
+
+      "resources": [
+        "ice",
+        "silver",
+        "ancient_relic"
+      ]
+    }
+  ]
+}
