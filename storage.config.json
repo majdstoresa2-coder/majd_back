@@ -1,0 +1,54 @@
+{
+  "storage": {
+    "enabled": true,
+
+    "levelSystem": {
+      "minimumLevel": 1,
+      "maximumLevel": 100
+    },
+
+    "storageTypes": [
+      {
+        "id": "resource_warehouse",
+        "name": {
+          "ar": "مخزن الموارد",
+          "en": "Resource Warehouse"
+        },
+        "description": {
+          "ar": "تخزين الموارد الأساسية للمملكة.",
+          "en": "Stores kingdom resources."
+        }
+      },
+      {
+        "id": "secure_vault",
+        "name": {
+          "ar": "الخزينة الآمنة",
+          "en": "Secure Vault"
+        }
+      }
+    ],
+
+    "capacity": {
+      "baseCapacity": 10000,
+
+      "resources": [
+        "wood",
+        "stone",
+        "iron",
+        "gold"
+      ],
+
+      "increasePerLevel": 500
+    },
+
+    "warehouseEffects": {
+      "enabled": true,
+
+      "bonuses": {
+        "increaseCapacity": true,
+        "protectResources": true,
+        "improveManagement": true
+      }
+    }
+  }
+}
