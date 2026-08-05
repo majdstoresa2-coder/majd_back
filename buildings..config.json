@@ -1,0 +1,113 @@
+{
+  "productionBuildings": [
+    {
+      "id": "lumber_mill",
+      "name": {
+        "ar": "منشرة الأخشاب",
+        "en": "Lumber Mill"
+      },
+      "category": "resource",
+
+      "production": {
+        "resource": "wood",
+        "baseRatePerHour": 500
+      }
+    },
+
+    {
+      "id": "stone_quarry",
+      "name": {
+        "ar": "محجر الحجارة",
+        "en": "Stone Quarry"
+      },
+      "category": "resource",
+
+      "production": {
+        "resource": "stone",
+        "baseRatePerHour": 400
+      }
+    },
+
+    {
+      "id": "iron_mine",
+      "name": {
+        "ar": "منجم الحديد",
+        "en": "Iron Mine"
+      },
+      "category": "resource",
+
+      "production": {
+        "resource": "iron",
+        "baseRatePerHour": 250
+      }
+    },
+
+    {
+      "id": "gold_mine",
+      "name": {
+        "ar": "منجم الذهب",
+        "en": "Gold Mine"
+      },
+      "category": "resource",
+
+      "production": {
+        "resource": "gold",
+        "baseRatePerHour": 100
+      }
+    }
+  ],
+
+  "researchBuildings": [
+    {
+      "id": "academy",
+      "name": {
+        "ar": "الأكاديمية",
+        "en": "Academy"
+      },
+      "effects": {
+        "researchSpeedBonus": 5,
+        "unlocksTechnologies": true
+      }
+    }
+  ],
+
+  "defenseBuildings": [
+    {
+      "id": "city_wall",
+      "name": {
+        "ar": "أسوار المدينة",
+        "en": "City Wall"
+      },
+      "effects": {
+        "defenseBonusPercent": 20,
+        "enemyAttackReduction": 10
+      }
+    },
+
+    {
+      "id": "watch_tower",
+      "name": {
+        "ar": "برج المراقبة",
+        "en": "Watch Tower"
+      },
+      "effects": {
+        "earlyWarning": true,
+        "scoutingRangeBonus": 20
+      }
+    }
+  ],
+
+  "tradeBuildings": [
+    {
+      "id": "market",
+      "name": {
+        "ar": "السوق",
+        "en": "Market"
+      },
+      "effects": {
+        "tradeCapacityBonus": 20,
+        "taxIncomeBonus": 5
+      }
+    }
+  ]
+}
