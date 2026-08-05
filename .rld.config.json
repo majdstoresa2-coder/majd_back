@@ -1,0 +1,81 @@
+{
+  "rareResources": {
+    "crystal": {
+      "id": "crystal",
+      "name": {
+        "ar": "البلور",
+        "en": "Crystal"
+      },
+      "category": "rare",
+      "rarity": "epic",
+      "maxStorage": 50000,
+      "productionPerHour": 80,
+      "startingAmount": 0,
+      "usedFor": [
+        "hero_upgrades",
+        "magic_buildings",
+        "advanced_research"
+      ]
+    },
+
+    "obsidian": {
+      "id": "obsidian",
+      "name": {
+        "ar": "حجر السج",
+        "en": "Obsidian"
+      },
+      "category": "rare",
+      "rarity": "legendary",
+      "maxStorage": 25000,
+      "productionPerHour": 35,
+      "startingAmount": 0,
+      "usedFor": [
+        "legendary_weapons",
+        "elite_castles"
+      ]
+    },
+
+    "silver": {
+      "id": "silver",
+      "name": {
+        "ar": "الفضة",
+        "en": "Silver"
+      },
+      "category": "advanced",
+      "rarity": "rare",
+      "maxStorage": 80000,
+      "productionPerHour": 150,
+      "startingAmount": 0,
+      "usedFor": [
+        "trade",
+        "equipment",
+        "crafting"
+      ]
+    },
+
+    "ancientRelic": {
+      "id": "ancient_relic",
+      "name": {
+        "ar": "الأثر القديم",
+        "en": "Ancient Relic"
+      },
+      "category": "artifact",
+      "rarity": "mythic",
+      "maxStorage": 500,
+      "productionPerHour": 0,
+      "startingAmount": 0,
+      "usedFor": [
+        "special_events",
+        "legendary_unlocks"
+      ]
+    }
+  },
+
+  "gathering": {
+    "manualCollection": true,
+    "automaticProduction": true,
+    "resourceBoosts": true,
+    "allianceSupport": true,
+    "productionStopsWhenStorageFull": true
+  }
+}
