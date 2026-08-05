@@ -1,0 +1,74 @@
+{
+  "specialRegions": [
+    {
+      "id": "shadow-valley",
+      "name": {
+        "ar": "وادي الظلال",
+        "en": "Shadow Valley"
+      },
+      "type": "mysterious",
+      "difficulty": 8,
+
+      "recommendedLevel": {
+        "min": 55,
+        "max": 80
+      },
+
+      "features": {
+        "hiddenMissions": true,
+        "rareMonsters": true,
+        "secretTreasures": true
+      },
+
+      "resources": [
+        "ancient_relic",
+        "shadow_crystal"
+      ],
+
+      "unlockCondition": "Complete Dark Forest Quest"
+    },
+
+    {
+      "id": "legend-isles-region",
+      "name": {
+        "ar": "جزر الأساطير",
+        "en": "Legend Isles"
+      },
+      "type": "legendary",
+      "difficulty": 10,
+
+      "recommendedLevel": {
+        "min": 80,
+        "max": 100
+      },
+
+      "features": {
+        "worldBoss": true,
+        "legendaryRewards": true,
+        "exclusiveEvents": true
+      },
+
+      "resources": [
+        "legendary_crystal",
+        "ancient_relic"
+      ],
+
+      "unlockCondition": "Reach Maximum Exploration"
+    }
+  ],
+
+  "regionRules": {
+    "dynamicEvents": true,
+    "regionOwnership": true,
+    "allianceControl": true,
+    "resourceRegeneration": true,
+    "weatherImpact": true
+  },
+
+  "metadata": {
+    "module": "Regions",
+    "project": "Majd World",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
