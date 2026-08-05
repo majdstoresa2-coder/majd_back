@@ -1,0 +1,62 @@
+{
+  "constructionSystem": {
+    "enabled": true,
+
+    "costs": {
+      "resources": [
+        "wood",
+        "stone",
+        "iron",
+        "gold"
+      ],
+
+      "increasePerLevelPercent": 15
+    },
+
+    "constructionTime": {
+      "baseSeconds": 60,
+      "increasePerLevelSeconds": 30,
+      "speedUpItems": true
+    }
+  },
+
+  "upgradeSystem": {
+    "enabled": true,
+
+    "requirements": {
+      "mainCastleLevel": true,
+      "researchLevel": true,
+      "resourceRequirement": true
+    },
+
+    "benefits": {
+      "productionIncrease": true,
+      "capacityIncrease": true,
+      "efficiencyIncrease": true
+    }
+  },
+
+  "unlockRules": {
+    "buildingSlots": {
+      "startingSlots": 5,
+      "maximumSlots": 100
+    },
+
+    "unlockByCastleLevel": true,
+    "unlockByResearch": true,
+    "unlockByAchievements": true
+  },
+
+  "maintenance": {
+    "enabled": true,
+    "dailyGoldCost": 100,
+    "repairRequired": false
+  },
+
+  "metadata": {
+    "module": "Buildings",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
