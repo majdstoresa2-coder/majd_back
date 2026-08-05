@@ -1,0 +1,53 @@
+{
+  "skillTree": {
+    "enabled": true,
+    "maxSkillPoints": 200,
+    "branches": [
+      "combat",
+      "defense",
+      "leadership",
+      "economy",
+      "exploration"
+    ],
+    "resetSkillTree": true
+  },
+
+  "heroAbilities": {
+    "activeSkills": 4,
+    "passiveSkills": 6,
+    "ultimateSkill": 1,
+    "comboSkills": true
+  },
+
+  "heroBonds": {
+    "enabled": true,
+    "relationshipBonus": true,
+    "sharedFactionBonus": true,
+    "sharedRegionBonus": true
+  },
+
+  "loyalty": {
+    "enabled": true,
+    "maximumLoyalty": 100,
+    "minimumLoyalty": 0,
+    "lowLoyaltyPenalty": true
+  },
+
+  "titles": {
+    "enabled": true,
+    "heroTitles": [
+      "Defender",
+      "Conqueror",
+      "Explorer",
+      "Guardian",
+      "Strategist"
+    ]
+  },
+
+  "metadata": {
+    "module": "Heroes",
+    "project": "Majd Combat System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
