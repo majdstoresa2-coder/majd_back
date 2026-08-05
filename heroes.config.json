@@ -1,0 +1,81 @@
+{
+  "heroes": {
+    "enabled": true,
+    "maxHeroLevel": 100,
+    "maxHeroesPerPlayer": 50,
+
+    "rarities": [
+      {
+        "id": "common",
+        "name": {
+          "ar": "عادي",
+          "en": "Common"
+        },
+        "stars": 1,
+        "color": "#BDBDBD"
+      },
+      {
+        "id": "rare",
+        "name": {
+          "ar": "نادر",
+          "en": "Rare"
+        },
+        "stars": 2,
+        "color": "#2196F3"
+      },
+      {
+        "id": "epic",
+        "name": {
+          "ar": "ملحمي",
+          "en": "Epic"
+        },
+        "stars": 4,
+        "color": "#9C27B0"
+      },
+      {
+        "id": "legendary",
+        "name": {
+          "ar": "أسطوري",
+          "en": "Legendary"
+        },
+        "stars": 5,
+        "color": "#FFC107"
+      }
+    ],
+
+    "classes": [
+      {
+        "id": "commander",
+        "name": {
+          "ar": "القائد",
+          "en": "Commander"
+        },
+        "specialization": "army_leadership"
+      },
+      {
+        "id": "guardian",
+        "name": {
+          "ar": "الحارس",
+          "en": "Guardian"
+        },
+        "specialization": "defense"
+      },
+      {
+        "id": "explorer",
+        "name": {
+          "ar": "المستكشف",
+          "en": "Explorer"
+        },
+        "specialization": "exploration"
+      },
+      {
+        "id": "strategist",
+        "name": {
+          "ar": "الاستراتيجي",
+          "en": "Strategist"
+        },
+        "specialization": "economy_research"
+      }
+    ]
+  }
+}
