@@ -1,0 +1,89 @@
+{
+  "islands": [
+    {
+      "id": "island_crystal_003",
+      "name": {
+        "ar": "جزيرة البلورات",
+        "en": "Crystal Island"
+      },
+      "type": "resource",
+      "difficulty": 4,
+      "recommendedLevel": {
+        "min": 20,
+        "max": 35
+      },
+      "climate": "mountain",
+      "resources": [
+        "crystal",
+        "silver",
+        "stone"
+      ],
+      "boss": {
+        "id": "crystal_guardian",
+        "level": 35
+      },
+      "structures": {
+        "mine": true,
+        "watchTower": true,
+        "smallVillage": false
+      }
+    },
+
+    {
+      "id": "island_volcano_004",
+      "name": {
+        "ar": "جزيرة البركان",
+        "en": "Volcano Island"
+      },
+      "type": "elite",
+      "difficulty": 7,
+      "recommendedLevel": {
+        "min": 35,
+        "max": 50
+      },
+      "climate": "volcanic",
+      "resources": [
+        "obsidian",
+        "lava_crystal",
+        "gold"
+      ],
+      "hazards": [
+        "lava",
+        "fire",
+        "eruption"
+      ],
+      "boss": {
+        "id": "lava_titan",
+        "level": 50
+      }
+    },
+
+    {
+      "id": "island_frost_005",
+      "name": {
+        "ar": "جزيرة الصقيع",
+        "en": "Frost Island"
+      },
+      "type": "legendary",
+      "difficulty": 9,
+      "recommendedLevel": {
+        "min": 50,
+        "max": 70
+      },
+      "climate": "snow",
+      "resources": [
+        "ice",
+        "silver",
+        "ancient_relic"
+      ],
+      "hazards": [
+        "blizzard",
+        "freezingWind"
+      ],
+      "boss": {
+        "id": "frost_king",
+        "level": 70
+      }
+    }
+  ]
+}
