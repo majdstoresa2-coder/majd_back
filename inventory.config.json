@@ -1,0 +1,77 @@
+{
+  "inventory": {
+    "enabled": true,
+
+    "levelSystem": {
+      "minimumLevel": 1,
+      "maximumLevel": 100
+    },
+
+    "inventoryTypes": [
+      {
+        "id": "player_inventory",
+        "name": {
+          "ar": "مخزون اللاعب",
+          "en": "Player Inventory"
+        }
+      },
+      {
+        "id": "equipment_storage",
+        "name": {
+          "ar": "مخزن المعدات",
+          "en": "Equipment Storage"
+        }
+      },
+      {
+        "id": "material_storage",
+        "name": {
+          "ar": "مخزن المواد",
+          "en": "Material Storage"
+        }
+      }
+    ],
+
+    "capacity": {
+      "baseSlots": 100,
+      "increasePerLevel": 10,
+
+      "categories": [
+        "items",
+        "equipment",
+        "materials",
+        "special_items"
+      ]
+    }
+  },
+
+  "itemCategories": [
+    {
+      "id": "resources",
+      "name": {
+        "ar": "الموارد",
+        "en": "Resources"
+      }
+    },
+    {
+      "id": "equipment",
+      "name": {
+        "ar": "المعدات",
+        "en": "Equipment"
+      }
+    },
+    {
+      "id": "consumables",
+      "name": {
+        "ar": "المستهلكات",
+        "en": "Consumables"
+      }
+    },
+    {
+      "id": "rare_items",
+      "name": {
+        "ar": "العناصر النادرة",
+        "en": "Rare Items"
+      }
+    }
+  ]
+}
