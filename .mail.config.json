@@ -1,0 +1,54 @@
+{
+  "mailCategories": {
+    "enabled": true,
+
+    "categories": [
+      "system",
+      "player",
+      "alliance",
+      "event",
+      "reward",
+      "purchase"
+    ]
+  },
+
+  "prioritySystem": {
+    "enabled": true,
+
+    "levels": [
+      "normal",
+      "important",
+      "urgent"
+    ],
+
+    "allowFavoriteMessages": true
+  },
+
+  "searchAndFilter": {
+    "enabled": true,
+
+    "searchBySender": true,
+    "searchByCategory": true,
+    "searchByDate": true,
+    "showUnreadOnly": true
+  },
+
+  "statistics": {
+    "enabled": true,
+
+    "track": {
+      "messagesReceived": true,
+      "messagesSent": true,
+      "attachmentsClaimed": true,
+      "expiredMessages": true,
+      "deletedMessages": true
+    }
+  },
+
+  "metadata": {
+    "module": "Mail",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
