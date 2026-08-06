@@ -1,0 +1,55 @@
+{
+  "chat": {
+    "enabled": true,
+
+    "defaultLanguage": "ar",
+
+    "allowPlayerChat": true,
+
+    "storeMessageHistory": true
+  },
+
+  "channels": {
+    "global": {
+      "enabled": true,
+
+      "maximumPlayers": 10000
+    },
+
+    "local": {
+      "enabled": true,
+
+      "rangeBased": true
+    },
+
+    "private": {
+      "enabled": true,
+
+      "allowPlayerMessages": true
+    },
+
+    "alliance": {
+      "enabled": true,
+
+      "onlyMembers": true
+    }
+  },
+
+  "messageRules": {
+    "maximumLength": 500,
+
+    "allowEmojis": true,
+
+    "allowImages": false,
+
+    "allowLinks": false
+  },
+
+  "rateLimit": {
+    "enabled": true,
+
+    "messagesPerMinute": 20,
+
+    "preventSpam": true
+  }
+}
