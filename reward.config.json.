@@ -1,0 +1,59 @@
+{
+  "chests": {
+    "enabled": true,
+
+    "types": [
+      "common",
+      "rare",
+      "epic",
+      "legendary"
+    ],
+
+    "allowRandomRewards": true,
+
+    "showPossibleRewards": true
+  },
+
+  "randomRewards": {
+    "enabled": true,
+
+    "raritySystem": true,
+
+    "dropRates": {
+      "common": 60,
+      "rare": 25,
+      "epic": 10,
+      "legendary": 5
+    }
+  },
+
+  "rankRewards": {
+    "enabled": true,
+
+    "rewardTopPlayers": true,
+
+    "rewardTopAlliances": true,
+
+    "rewardRankProgress": true
+  },
+
+  "seasonRewards": {
+    "enabled": true,
+
+    "rewardSeasonCompletion": true,
+
+    "rewardSeasonRank": true,
+
+    "rewardParticipation": true
+  },
+
+  "distributionRules": {
+    "enabled": true,
+
+    "preventDuplicateRewards": true,
+
+    "trackRewardClaims": true,
+
+    "limitDailyRewards": true
+  }
+}
