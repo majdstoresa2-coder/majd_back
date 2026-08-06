@@ -1,0 +1,111 @@
+{
+  "shop": {
+    "enabled": true,
+    "defaultCurrency": "SAR",
+    "supportedCurrencies": [
+      "SAR",
+      "USD",
+      "EUR",
+      "GBP",
+      "AED",
+      "KWD",
+      "BHD",
+      "QAR"
+    ],
+
+    "categories": [
+      {
+        "id": "gems",
+        "name": {
+          "ar": "الجواهر",
+          "en": "Gems"
+        }
+      },
+      {
+        "id": "resources",
+        "name": {
+          "ar": "الموارد",
+          "en": "Resources"
+        }
+      },
+      {
+        "id": "equipment",
+        "name": {
+          "ar": "المعدات",
+          "en": "Equipment"
+        }
+      },
+      {
+        "id": "bundles",
+        "name": {
+          "ar": "الحزم",
+          "en": "Bundles"
+        }
+      },
+      {
+        "id": "special_offers",
+        "name": {
+          "ar": "العروض الخاصة",
+          "en": "Special Offers"
+        }
+      }
+    ]
+  },
+
+  "gemPackages": [
+    {
+      "id": "gems_100",
+      "gems": 100,
+      "price": 10,
+      "currency": "SAR",
+      "purchaseLimit": null
+    },
+    {
+      "id": "gems_550",
+      "gems": 550,
+      "bonusGems": 50,
+      "price": 50,
+      "currency": "SAR",
+      "purchaseLimit": null
+    },
+    {
+      "id": "gems_1200",
+      "gems": 1200,
+      "bonusGems": 200,
+      "price": 100,
+      "currency": "SAR",
+      "purchaseLimit": null
+    }
+  ],
+
+  "starterBundles": [
+    {
+      "id": "beginner_bundle",
+      "name": {
+        "ar": "حزمة البداية",
+        "en": "Beginner Bundle"
+      },
+
+      "price": 10,
+      "currency": "SAR",
+
+      "contents": {
+        "gems": 100,
+        "gold": 10000,
+        "wood": 5000,
+        "stone": 5000,
+        "iron": 2500
+      },
+
+      "purchaseLimit": 1
+    }
+  ],
+
+  "purchaseRules": {
+    "serverSideValidation": true,
+    "verifyPaymentBeforeGrantingItems": true,
+    "preventDuplicateTransactions": true,
+    "generateUniqueOrderId": true,
+    "logEveryPurchase": true
+  }
+}
