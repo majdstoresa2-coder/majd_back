@@ -1,0 +1,62 @@
+{
+  "discountSystem": {
+    "enabled": true,
+
+    "allowPercentageDiscounts": true,
+    "allowFixedDiscounts": true,
+
+    "maximumDiscountPercent": 80
+  },
+
+  "limitedOffers": {
+    "enabled": true,
+
+    "allowCountdown": true,
+
+    "showRemainingTime": true,
+
+    "allowPurchaseLimit": true
+  },
+
+  "dailyShop": {
+    "enabled": true,
+
+    "refreshEveryHours": 24,
+
+    "freeRefreshPerDay": 1,
+
+    "allowGemRefresh": true
+  },
+
+  "weeklyShop": {
+    "enabled": true,
+
+    "refreshEveryDays": 7
+  },
+
+  "couponSystem": {
+    "enabled": true,
+
+    "allowPromoCodes": true,
+
+    "allowSingleUseCoupons": true,
+
+    "trackCouponUsage": true
+  },
+
+  "personalOffers": {
+    "enabled": true,
+
+    "generateBasedOnPlayerLevel": true,
+
+    "generateBasedOnPurchaseHistory": true
+  },
+
+  "rotation": {
+    "enabled": true,
+
+    "automaticRotation": true,
+
+    "keepFeaturedProducts": true
+  }
+}
