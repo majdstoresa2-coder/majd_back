@@ -1,0 +1,50 @@
+{
+  "privacy": {
+    "enabled": true,
+
+    "allowOnlineStatusControl": true,
+
+    "allowProfileVisibilityControl": true,
+
+    "allowStatisticsVisibilityControl": true
+  },
+
+  "notifications": {
+    "enabled": true,
+
+    "notifyProfileViews": true,
+
+    "notifyAchievementUnlock": true,
+
+    "notifyTitleUnlocked": true,
+
+    "notifyFriendActivity": true
+  },
+
+  "analytics": {
+    "enabled": true,
+
+    "trackProfileVisits": true,
+
+    "trackPlayerActivity": true,
+
+    "trackProgressChanges": true
+  },
+
+  "account": {
+    "enabled": true,
+
+    "showAccountCreationDate": true,
+
+    "allowAccountLinking": true,
+
+    "supportMultipleLoginMethods": true
+  },
+
+  "metadata": {
+    "module": "Profile",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
