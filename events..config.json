@@ -1,0 +1,67 @@
+{
+  "eventStatistics": {
+    "enabled": true,
+
+    "track": {
+      "totalParticipants": true,
+      "completedEvents": true,
+      "bossDefeats": true,
+      "pvpMatches": true,
+      "rewardsClaimed": true
+    }
+  },
+
+  "eventHistory": {
+    "enabled": true,
+
+    "saveCompletedEvents": true,
+    "historyLimit": 100,
+
+    "showResults": true,
+    "showTopPlayers": true
+  },
+
+  "participantAwards": {
+    "enabled": true,
+
+    "badges": [
+      {
+        "id": "event_champion",
+        "name": {
+          "ar": "بطل الفعالية",
+          "en": "Event Champion"
+        }
+      },
+      {
+        "id": "boss_slayer",
+        "name": {
+          "ar": "قاهر الزعماء",
+          "en": "Boss Slayer"
+        }
+      },
+      {
+        "id": "elite_participant",
+        "name": {
+          "ar": "المشارك المتميز",
+          "en": "Elite Participant"
+        }
+      }
+    ]
+  },
+
+  "analytics": {
+    "enabled": true,
+
+    "trackPeakPlayers": true,
+    "trackAverageParticipation": true,
+    "trackRewardDistribution": true,
+    "trackCompletionRate": true
+  },
+
+  "metadata": {
+    "module": "Events",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
