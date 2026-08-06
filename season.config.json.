@@ -1,0 +1,55 @@
+{
+  "rewards": {
+    "enabled": true,
+
+    "types": [
+      "gems",
+      "gold",
+      "resources",
+      "items",
+      "exclusiveSkins"
+    ],
+
+    "rewardBasedOnRank": true,
+
+    "rewardBasedOnProgress": true
+  },
+
+  "levels": {
+    "enabled": true,
+
+    "maxSeasonLevel": 100,
+
+    "trackSeasonExperience": true,
+
+    "unlockLevelRewards": true
+  },
+
+  "seasonRanking": {
+    "enabled": true,
+
+    "rankPlayers": true,
+
+    "rankAlliances": true,
+
+    "showSeasonLeaderboard": true
+  },
+
+  "reset": {
+    "enabled": true,
+
+    "resetSeasonPoints": true,
+
+    "archivePreviousProgress": true,
+
+    "keepPermanentAchievements": true
+  },
+
+  "events": {
+    "enabled": true,
+
+    "allowSeasonChallenges": true,
+
+    "allowLimitedTimeEvents": true
+  }
+}
