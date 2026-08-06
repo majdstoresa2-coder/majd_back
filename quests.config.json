@@ -1,0 +1,69 @@
+{
+  "quests": {
+    "enabled": true,
+
+    "levelRequirements": {
+      "minimumPlayerLevel": 1,
+      "maximumPlayerLevel": 100
+    },
+
+    "categories": [
+      {
+        "id": "main",
+        "name": {
+          "ar": "المهام الرئيسية",
+          "en": "Main Quests"
+        }
+      },
+      {
+        "id": "daily",
+        "name": {
+          "ar": "المهام اليومية",
+          "en": "Daily Quests"
+        }
+      },
+      {
+        "id": "weekly",
+        "name": {
+          "ar": "المهام الأسبوعية",
+          "en": "Weekly Quests"
+        }
+      }
+    ],
+
+    "tracking": {
+      "enabled": true,
+      "autoTrack": true,
+      "showProgress": true
+    }
+  },
+
+  "sampleQuests": [
+    {
+      "id": "upgrade_castle_1",
+      "category": "main",
+      "title": {
+        "ar": "طور القلعة إلى المستوى 2",
+        "en": "Upgrade Castle to Level 2"
+      },
+      "objective": {
+        "type": "upgrade_building",
+        "target": "castle",
+        "level": 2
+      }
+    },
+    {
+      "id": "collect_wood_daily",
+      "category": "daily",
+      "title": {
+        "ar": "اجمع 5000 خشب",
+        "en": "Collect 5000 Wood"
+      },
+      "objective": {
+        "type": "collect_resource",
+        "resource": "wood",
+        "amount": 5000
+      }
+    }
+  ]
+}
