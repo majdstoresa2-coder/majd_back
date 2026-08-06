@@ -1,0 +1,73 @@
+{
+  "rewardBoxes": {
+    "enabled": true,
+
+    "types": [
+      {
+        "id": "basic_box",
+        "name": {
+          "ar": "صندوق عادي",
+          "en": "Basic Box"
+        }
+      },
+      {
+        "id": "rare_box",
+        "name": {
+          "ar": "صندوق نادر",
+          "en": "Rare Box"
+        }
+      },
+      {
+        "id": "legendary_box",
+        "name": {
+          "ar": "صندوق أسطوري",
+          "en": "Legendary Box"
+        }
+      }
+    ],
+
+    "rewards": [
+      "equipment",
+      "materials",
+      "special_items",
+      "resources"
+    ]
+  },
+
+  "itemProtection": {
+    "enabled": true,
+
+    "features": {
+      "lockItems": true,
+      "preventAccidentalDelete": true,
+      "protectRareItems": true
+    }
+  },
+
+  "collectionAchievements": {
+    "enabled": true,
+
+    "track": [
+      "totalItemsCollected",
+      "rareItemsCollected",
+      "legendaryItemsCollected",
+      "equipmentCollection"
+    ],
+
+    "rewards": true
+  },
+
+  "statistics": {
+    "trackItemsUsed": true,
+    "trackItemsCreated": true,
+    "trackItemsUpgraded": true,
+    "trackInventoryGrowth": true
+  },
+
+  "metadata": {
+    "module": "Inventory",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
