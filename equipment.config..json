@@ -1,0 +1,79 @@
+{
+  "upgradeSystem": {
+    "enabled": true,
+
+    "maxUpgradeLevel": 50,
+
+    "requirements": {
+      "gold": true,
+      "upgradeMaterials": true,
+      "duplicateEquipment": false
+    },
+
+    "effects": {
+      "increaseAttack": true,
+      "increaseDefense": true,
+      "increaseSpecialStats": true
+    },
+
+    "upgradeCostIncreasePercent": 20
+  },
+
+  "specialAbilities": {
+    "enabled": true,
+
+    "abilities": [
+      {
+        "id": "fire_power",
+        "name": {
+          "ar": "قوة النار",
+          "en": "Fire Power"
+        },
+        "effect": "increase_damage"
+      },
+      {
+        "id": "iron_guard",
+        "name": {
+          "ar": "الحارس الحديدي",
+          "en": "Iron Guard"
+        },
+        "effect": "increase_defense"
+      },
+      {
+        "id": "royal_aura",
+        "name": {
+          "ar": "الهالة الملكية",
+          "en": "Royal Aura"
+        },
+        "effect": "increase_army_morale"
+      }
+    ]
+  },
+
+  "craftingSystem": {
+    "enabled": true,
+
+    "materials": [
+      "iron",
+      "gold",
+      "rare_crystals",
+      "magic_parts"
+    ],
+
+    "craftTypes": [
+      "create_equipment",
+      "upgrade_equipment",
+      "change_rarity"
+    ]
+  },
+
+  "fusionSystem": {
+    "enabled": true,
+
+    "features": {
+      "combineEquipment": true,
+      "increaseRarity": true,
+      "unlockExtraStats": true
+    }
+  }
+}
