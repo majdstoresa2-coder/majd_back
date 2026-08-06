@@ -1,0 +1,50 @@
+{
+  "statistics": {
+    "enabled": true,
+
+    "showBattleStats": true,
+    "showBuildingStats": true,
+    "showExplorationStats": true,
+    "showSocialStats": true,
+
+    "trackPlayTime": true
+  },
+
+  "titles": {
+    "enabled": true,
+
+    "allowEquippedTitle": true,
+
+    "maximumDisplayedTitles": 3,
+
+    "showTitleOnProfile": true
+  },
+
+  "badges": {
+    "enabled": true,
+
+    "showEarnedBadges": true,
+
+    "allowBadgeSelection": true,
+
+    "maximumDisplayedBadges": 5
+  },
+
+  "achievements": {
+    "enabled": true,
+
+    "showCompletedAchievements": true,
+
+    "showAchievementProgress": true
+  },
+
+  "progress": {
+    "enabled": true,
+
+    "trackMilestones": true,
+
+    "trackPlayerGrowth": true,
+
+    "storeProgressHistory": true
+  }
+}
