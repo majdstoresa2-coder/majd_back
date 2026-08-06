@@ -1,0 +1,63 @@
+{
+  "mail": {
+    "enabled": true,
+
+    "limits": {
+      "maximumInboxMessages": 500,
+      "maximumSentMessages": 200,
+      "maximumAttachments": 10
+    },
+
+    "messageTypes": [
+      {
+        "id": "player",
+        "name": {
+          "ar": "رسالة لاعب",
+          "en": "Player Mail"
+        }
+      },
+      {
+        "id": "system",
+        "name": {
+          "ar": "رسالة النظام",
+          "en": "System Mail"
+        }
+      },
+      {
+        "id": "alliance",
+        "name": {
+          "ar": "رسالة التحالف",
+          "en": "Alliance Mail"
+        }
+      },
+      {
+        "id": "event",
+        "name": {
+          "ar": "رسالة فعالية",
+          "en": "Event Mail"
+        }
+      }
+    ]
+  },
+
+  "attachments": {
+    "enabled": true,
+
+    "supportedTypes": [
+      "gold",
+      "gems",
+      "resources",
+      "equipment",
+      "items",
+      "hero_fragments"
+    ],
+
+    "allowMultipleAttachments": true
+  },
+
+  "sending": {
+    "allowPlayerToPlayer": true,
+    "allowSystemMessages": true,
+    "allowAllianceBroadcast": true
+  }
+}
