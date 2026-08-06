@@ -1,0 +1,46 @@
+{
+  "expiration": {
+    "enabled": true,
+
+    "defaultExpirationDays": 30,
+
+    "systemMailExpirationDays": 90,
+
+    "autoDeleteExpired": true
+  },
+
+  "claimSystem": {
+    "enabled": true,
+
+    "claimAll": true,
+
+    "autoRemoveEmptyMail": false,
+
+    "preventDuplicateClaim": true
+  },
+
+  "notifications": {
+    "enabled": true,
+
+    "notifyOnNewMail": true,
+    "notifyOnRewardMail": true,
+    "notifyOnAllianceMail": true,
+    "showUnreadCounter": true
+  },
+
+  "permissions": {
+    "playersCanSend": true,
+    "systemCanSend": true,
+    "allianceLeadersCanBroadcast": true,
+    "officersCanBroadcast": true
+  },
+
+  "mailLog": {
+    "enabled": true,
+
+    "trackSent": true,
+    "trackClaimedAttachments": true,
+    "trackDeletedMessages": true,
+    "trackExpiredMessages": true
+  }
+}
