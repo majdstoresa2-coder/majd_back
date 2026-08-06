@@ -1,0 +1,60 @@
+{
+  "transactions": {
+    "enabled": true,
+
+    "storeTransactionHistory": true,
+
+    "maximumHistoryRecords": 100000,
+
+    "trackStatusChanges": true
+  },
+
+  "refunds": {
+    "enabled": true,
+
+    "allowPartialRefunds": true,
+
+    "allowFullRefunds": true,
+
+    "requireAdminApproval": true
+  },
+
+  "notifications": {
+    "enabled": true,
+
+    "notifyOnSuccess": true,
+
+    "notifyOnFailure": true,
+
+    "notifyOnRefund": true
+  },
+
+  "receipts": {
+    "enabled": true,
+
+    "generateReceiptNumber": true,
+
+    "storeReceiptHistory": true
+  },
+
+  "integration": {
+    "grantPurchasedItems": true,
+
+    "creditPlayerWallet": true,
+
+    "syncWithShop": true,
+
+    "syncWithInventory": true
+  },
+
+  "paymentStatus": {
+    "supportedStatuses": [
+      "pending",
+      "processing",
+      "paid",
+      "failed",
+      "cancelled",
+      "refunded"
+    ]
+  }
+}
