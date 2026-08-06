@@ -1,0 +1,57 @@
+{
+  "achievements": {
+    "enabled": true,
+
+    "showOnProfile": true,
+
+    "categories": [
+      "battle",
+      "building",
+      "exploration",
+      "social",
+      "events"
+    ],
+
+    "unlockNotifications": true
+  },
+
+  "badges": {
+    "enabled": true,
+
+    "allowEquippedBadges": true,
+
+    "maximumDisplayedBadges": 5
+  },
+
+  "reputation": {
+    "enabled": true,
+
+    "startingValue": 100,
+
+    "allowPositiveRatings": true,
+
+    "allowNegativeReports": true,
+
+    "trackReputationHistory": true
+  },
+
+  "blocking": {
+    "enabled": true,
+
+    "allowBlockPlayers": true,
+
+    "preventBlockedMessages": true,
+
+    "storeBlockedPlayersList": true
+  },
+
+  "interaction": {
+    "enabled": true,
+
+    "allowPlayerLikes": true,
+
+    "allowPlayerComments": true,
+
+    "allowProfileVisits": true
+  }
+}
