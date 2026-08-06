@@ -1,0 +1,51 @@
+{
+  "social": {
+    "enabled": true,
+
+    "allowPlayerInteraction": true,
+
+    "defaultPrivacy": "friends"
+  },
+
+  "profile": {
+    "enabled": true,
+
+    "showPlayerName": true,
+    "showAvatar": true,
+    "showLevel": true,
+    "showKingdom": true,
+    "showAchievements": true,
+
+    "allowCustomStatus": true
+  },
+
+  "friends": {
+    "enabled": true,
+
+    "maximumFriends": 500,
+
+    "allowFriendRequests": true,
+
+    "requireAcceptance": true,
+
+    "trackFriendHistory": true
+  },
+
+  "followers": {
+    "enabled": true,
+
+    "allowFollow": true,
+
+    "showFollowerCount": true,
+
+    "showFollowingCount": true
+  },
+
+  "privacy": {
+    "enabled": true,
+
+    "allowProfileVisibilityControl": true,
+
+    "allowFriendListVisibility": true
+  }
+}
