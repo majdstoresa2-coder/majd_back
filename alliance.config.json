@@ -1,0 +1,58 @@
+{
+  "alliance": {
+    "enabled": true,
+
+    "creation": {
+      "minimumCastleLevel": 5,
+      "goldCost": 100000,
+      "gemCost": 500,
+      "requireUniqueName": true,
+      "requireUniqueTag": true
+    },
+
+    "limits": {
+      "maximumMembers": 100,
+      "maximumApplications": 200
+    },
+
+    "joinPolicy": {
+      "allowOpenJoin": true,
+      "allowApprovalOnly": true,
+      "allowInviteOnly": true
+    }
+  },
+
+  "ranks": [
+    {
+      "id": "leader",
+      "name": {
+        "ar": "القائد",
+        "en": "Leader"
+      },
+      "priority": 1
+    },
+    {
+      "id": "officer",
+      "name": {
+        "ar": "ضابط",
+        "en": "Officer"
+      },
+      "priority": 2
+    },
+    {
+      "id": "member",
+      "name": {
+        "ar": "عضو",
+        "en": "Member"
+      },
+      "priority": 3
+    }
+  ],
+
+  "memberManagement": {
+    "allowPromotion": true,
+    "allowDemotion": true,
+    "allowKick": true,
+    "allowTransferLeadership": true
+  }
+}
