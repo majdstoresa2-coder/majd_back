@@ -1,0 +1,7 @@
+const MajdAIBrain = require("./brain/majd-ai-brain");
+
+const brain = new MajdAIBrain();
+
+brain.process({
+    message: "Create a new AAA survival game"
+});
