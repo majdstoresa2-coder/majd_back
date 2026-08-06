@@ -1,0 +1,48 @@
+{
+  "notifications": {
+    "enabled": true,
+
+    "notifyPrivateMessages": true,
+    "notifyAllianceMessages": true,
+    "notifyMentions": true,
+
+    "allowSoundNotification": true
+  },
+
+  "analytics": {
+    "enabled": true,
+
+    "trackMessagesSent": true,
+    "trackActiveChatUsers": true,
+    "trackPopularChannels": true,
+    "trackReports": true
+  },
+
+  "globalChannels": {
+    "enabled": true,
+
+    "channels": [
+      "world",
+      "region",
+      "language",
+      "official"
+    ],
+
+    "allowChannelModeration": true
+  },
+
+  "localization": {
+    "enabled": true,
+
+    "supportMultipleLanguages": true,
+
+    "autoDetectPlayerLanguage": true
+  },
+
+  "metadata": {
+    "module": "Chat",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
