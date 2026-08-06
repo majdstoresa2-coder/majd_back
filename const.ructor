@@ -1,0 +1,11 @@
+const decision = this.decision.evaluate(plan);
+
+if (!decision.approved) {
+    throw new Error(
+        "Plan rejected: " +
+        decision.reasons.join(", ")
+    );
+}
+
+console.log("Decision:");
+console.log(decision);
