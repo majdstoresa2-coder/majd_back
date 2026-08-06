@@ -1,0 +1,62 @@
+{
+  "objectives": {
+    "enabled": true,
+
+    "types": [
+      "collect",
+      "upgrade",
+      "build",
+      "battle",
+      "explore",
+      "assist"
+    ],
+
+    "trackObjectiveProgress": true
+  },
+
+  "rewards": {
+    "enabled": true,
+
+    "types": [
+      "gold",
+      "gems",
+      "resources",
+      "items",
+      "experience"
+    ],
+
+    "claimAfterCompletion": true
+  },
+
+  "battleQuests": {
+    "enabled": true,
+
+    "types": [
+      "winBattles",
+      "defeatEnemies",
+      "joinWars",
+      "trainTroops"
+    ]
+  },
+
+  "kingdomQuests": {
+    "enabled": true,
+
+    "types": [
+      "upgradeBuildings",
+      "developTechnology",
+      "increasePower",
+      "expandTerritory"
+    ]
+  },
+
+  "explorationQuests": {
+    "enabled": true,
+
+    "types": [
+      "discoverAreas",
+      "findResources",
+      "exploreRuins"
+    ]
+  }
+}
