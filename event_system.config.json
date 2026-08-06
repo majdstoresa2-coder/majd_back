@@ -1,0 +1,65 @@
+{
+  "eventSystem": {
+    "enabled": true,
+
+    "trackEventParticipation": true,
+
+    "storeEventHistory": true,
+
+    "notifyEventUpdates": true
+  },
+
+  "types": {
+    "temporary": {
+      "enabled": true,
+
+      "limitedTime": true,
+
+      "allowSpecialRewards": true
+    },
+
+    "seasonal": {
+      "enabled": true,
+
+      "linkedToSeason": true,
+
+      "exclusiveContent": true
+    },
+
+    "war": {
+      "enabled": true,
+
+      "battleBased": true,
+
+      "allowAllianceParticipation": true
+    },
+
+    "world": {
+      "enabled": true,
+
+      "globalParticipation": true,
+
+      "affectWorldState": true
+    }
+  },
+
+  "schedule": {
+    "enabled": true,
+
+    "startAutomatically": true,
+
+    "endAutomatically": true,
+
+    "trackEventDuration": true
+  },
+
+  "participation": {
+    "enabled": true,
+
+    "trackPlayerParticipation": true,
+
+    "trackAllianceParticipation": true,
+
+    "saveEventProgress": true
+  }
+}
