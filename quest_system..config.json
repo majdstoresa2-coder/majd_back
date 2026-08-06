@@ -1,0 +1,64 @@
+{
+  "notifications": {
+    "enabled": true,
+
+    "notifyQuestAvailable": true,
+
+    "notifyQuestCompleted": true,
+
+    "notifyRewardReady": true,
+
+    "showQuestUpdates": true
+  },
+
+  "leaderboard": {
+    "enabled": true,
+
+    "rankByCompletedQuests": true,
+
+    "rankByQuestPoints": true,
+
+    "showTopQuestPlayers": true
+  },
+
+  "analytics": {
+    "enabled": true,
+
+    "trackQuestCompletionRate": true,
+
+    "trackPopularQuests": true,
+
+    "trackPlayerProgress": true,
+
+    "generateQuestReports": true
+  },
+
+  "history": {
+    "enabled": true,
+
+    "storeCompletedQuests": true,
+
+    "showQuestTimeline": true,
+
+    "keepSeasonQuestHistory": true
+  },
+
+  "administration": {
+    "enabled": true,
+
+    "allowQuestCreation": true,
+
+    "allowQuestEditing": true,
+
+    "allowCustomRewards": true,
+
+    "allowEventQuestManagement": true
+  },
+
+  "metadata": {
+    "module": "Quest System",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
