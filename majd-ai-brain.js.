@@ -1,0 +1,28 @@
+// Majd AI Brain
+const AIGameFactory = require("./majd-ai-game-factory/core/game-factory");
+
+class MajdAIBrain {
+
+  constructor() {
+    this.name = "Majd AI Brain";
+    this.version = "1.0.0";
+
+    this.factory = new AIGameFactory();
+  }
+
+  async start() {
+
+    console.log("=================================");
+    console.log("Majd AI Brain Started");
+    console.log("=================================");
+
+    const result = await this.factory.createAutomaticGame();
+
+    console.log("Brain Finished");
+
+    return result;
+  }
+
+}
+
+module.exports = MajdAIBrain;
