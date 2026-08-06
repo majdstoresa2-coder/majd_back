@@ -1,0 +1,74 @@
+{
+  "notifications": {
+    "enabled": true,
+
+    "defaultLanguage": "ar",
+
+    "allowUserPreferences": true
+  },
+
+  "channels": {
+    "inGame": {
+      "enabled": true
+    },
+
+    "push": {
+      "enabled": true
+    },
+
+    "email": {
+      "enabled": true
+    }
+  },
+
+  "categories": [
+    {
+      "id": "system",
+      "name": {
+        "ar": "النظام",
+        "en": "System"
+      }
+    },
+    {
+      "id": "alliance",
+      "name": {
+        "ar": "التحالف",
+        "en": "Alliance"
+      }
+    },
+    {
+      "id": "battle",
+      "name": {
+        "ar": "المعارك",
+        "en": "Battle"
+      }
+    },
+    {
+      "id": "events",
+      "name": {
+        "ar": "الفعاليات",
+        "en": "Events"
+      }
+    },
+    {
+      "id": "shop",
+      "name": {
+        "ar": "المتجر",
+        "en": "Shop"
+      }
+    },
+    {
+      "id": "payment",
+      "name": {
+        "ar": "المدفوعات",
+        "en": "Payment"
+      }
+    }
+  ],
+
+  "delivery": {
+    "retryFailedNotifications": true,
+    "maximumRetries": 3,
+    "storeDeliveryStatus": true
+  }
+}
