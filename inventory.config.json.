@@ -1,0 +1,68 @@
+{
+  "equipmentSystem": {
+    "enabled": true,
+
+    "slots": [
+      "weapon",
+      "armor",
+      "helmet",
+      "accessory"
+    ],
+
+    "rarityLevels": [
+      "common",
+      "rare",
+      "epic",
+      "legendary",
+      "mythic"
+    ],
+
+    "effects": {
+      "increasePower": true,
+      "increaseDefense": true,
+      "increaseSkills": true
+    }
+  },
+
+  "itemUpgradeSystem": {
+    "enabled": true,
+
+    "upgradeLevels": {
+      "minimum": 1,
+      "maximum": 50
+    },
+
+    "requirements": {
+      "materials": true,
+      "gold": true,
+      "upgradeItems": true
+    },
+
+    "benefits": {
+      "increaseStats": true,
+      "unlockBonuses": true
+    }
+  },
+
+  "fusionSystem": {
+    "enabled": true,
+
+    "combineItems": true,
+    "upgradeRarity": true,
+
+    "requirements": {
+      "duplicateItems": true,
+      "fusionMaterials": true
+    }
+  },
+
+  "specialItems": {
+    "enabled": true,
+
+    "types": [
+      "legendary_items",
+      "event_items",
+      "exclusive_rewards"
+    ]
+  }
+}
