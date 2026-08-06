@@ -1,0 +1,51 @@
+{
+  "profile": {
+    "enabled": true,
+
+    "allowPlayerCustomization": true,
+
+    "defaultVisibility": "friends"
+  },
+
+  "basicInfo": {
+    "showPlayerName": true,
+
+    "showPlayerId": true,
+
+    "showKingdomName": true,
+
+    "showLevel": true,
+
+    "showJoinDate": true
+  },
+
+  "avatar": {
+    "enabled": true,
+
+    "allowCustomAvatar": true,
+
+    "allowAvatarFrames": true,
+
+    "maximumAvatarSizeMB": 5
+  },
+
+  "character": {
+    "enabled": true,
+
+    "allowSkinSelection": true,
+
+    "allowAppearanceChanges": true,
+
+    "saveCharacterHistory": true
+  },
+
+  "experience": {
+    "enabled": true,
+
+    "trackLevel": true,
+
+    "trackExperiencePoints": true,
+
+    "showProgressBar": true
+  }
+}
