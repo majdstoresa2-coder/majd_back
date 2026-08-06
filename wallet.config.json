@@ -1,0 +1,51 @@
+{
+  "wallet": {
+    "enabled": true,
+
+    "allowNegativeBalance": false,
+
+    "autoCreateWallet": true,
+
+    "defaultCurrency": "gold"
+  },
+
+  "walletTypes": [
+    {
+      "id": "gold",
+      "name": {
+        "ar": "الذهب",
+        "en": "Gold"
+      },
+      "transferable": true
+    },
+    {
+      "id": "gems",
+      "name": {
+        "ar": "الجواهر",
+        "en": "Gems"
+      },
+      "transferable": false
+    },
+    {
+      "id": "tokens",
+      "name": {
+        "ar": "الرموز",
+        "en": "Tokens"
+      },
+      "transferable": true
+    }
+  ],
+
+  "operations": {
+    "allowDeposit": true,
+    "allowWithdraw": true,
+    "allowTransfer": true,
+
+    "requireServerValidation": true
+  },
+
+  "limits": {
+    "maximumTransferPerTransaction": 1000000,
+    "minimumTransferAmount": 1
+  }
+}
