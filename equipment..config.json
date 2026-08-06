@@ -1,0 +1,59 @@
+{
+  "equipmentRewards": {
+    "enabled": true,
+
+    "milestones": [
+      {
+        "id": "first_legendary",
+        "condition": "obtain_legendary_equipment",
+        "reward": "rare_materials"
+      },
+      {
+        "id": "master_equipment",
+        "condition": "upgrade_equipment_level_50",
+        "reward": "special_equipment_skin"
+      }
+    ]
+  },
+
+  "collectionSystem": {
+    "enabled": true,
+
+    "track": [
+      "total_equipment_collected",
+      "rare_equipment_collected",
+      "legendary_equipment_collected",
+      "mythic_equipment_collected"
+    ],
+
+    "collectionRewards": true
+  },
+
+  "statistics": {
+    "trackEquipmentCreated": true,
+    "trackEquipmentUpgraded": true,
+    "trackEquipmentUsed": true,
+    "trackPowerIncrease": true
+  },
+
+  "balanceSettings": {
+    "enabled": true,
+
+    "limits": {
+      "maxEquippedItems": 4,
+      "maxInventoryEquipment": 1000
+    },
+
+    "economy": {
+      "upgradeCostScaling": true,
+      "rarityBalance": true
+    }
+  },
+
+  "metadata": {
+    "module": "Equipment",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
