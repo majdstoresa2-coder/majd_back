@@ -1,0 +1,69 @@
+{
+  "fusionSystem": {
+    "enabled": true,
+
+    "recipes": [
+      {
+        "id": "rare_to_epic",
+        "requiredItems": 3,
+        "inputRarity": "rare",
+        "outputRarity": "epic"
+      },
+      {
+        "id": "epic_to_legendary",
+        "requiredItems": 5,
+        "inputRarity": "epic",
+        "outputRarity": "legendary"
+      }
+    ],
+
+    "preserveSpecialAttributes": true
+  },
+
+  "workshopUpgrade": {
+    "enabled": true,
+
+    "upgradeBenefits": {
+      "craftSpeedPercent": 5,
+      "qualityPercent": 3,
+      "recipeUnlocks": true
+    },
+
+    "upgradeRequirements": {
+      "gold": true,
+      "materials": true,
+      "castleLevel": true
+    }
+  },
+
+  "craftingRewards": {
+    "enabled": true,
+
+    "milestones": [
+      {
+        "id": "first_craft",
+        "condition": "craft_1_item",
+        "reward": "basic_material_pack"
+      },
+      {
+        "id": "master_crafter",
+        "condition": "craft_1000_items",
+        "reward": "exclusive_blueprint"
+      }
+    ]
+  },
+
+  "statistics": {
+    "trackItemsCrafted": true,
+    "trackFusionAttempts": true,
+    "trackWorkshopUpgrades": true,
+    "trackRareItemsCreated": true
+  },
+
+  "metadata": {
+    "module": "Crafting",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
