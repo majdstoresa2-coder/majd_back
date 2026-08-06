@@ -1,0 +1,4 @@
+const analysis = await this.thinking.think(request);
+
+console.log("AI Analysis");
+console.log(analysis);
