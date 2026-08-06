@@ -1,0 +1,57 @@
+{
+  "transactionHistory": {
+    "enabled": true,
+
+    "storeHistory": true,
+
+    "maximumRecords": 100000,
+
+    "trackReason": true,
+
+    "trackSource": true
+  },
+
+  "rewardIntegration": {
+    "enabled": true,
+
+    "allowQuestRewards": true,
+    "allowEventRewards": true,
+    "allowPurchaseRewards": true,
+    "allowAdminRewards": true
+  },
+
+  "systemIntegration": {
+    "syncWithShop": true,
+    "syncWithPayment": true,
+    "syncWithInventory": true,
+    "syncWithMail": true
+  },
+
+  "notifications": {
+    "enabled": true,
+
+    "notifyDeposit": true,
+    "notifyWithdrawal": true,
+    "notifyTransfer": true,
+
+    "showBalanceAfterTransaction": true
+  },
+
+  "securityMonitoring": {
+    "enabled": true,
+
+    "detectAbnormalTransfers": true,
+
+    "detectLargeTransactions": true,
+
+    "logSuspiciousActivity": true
+  },
+
+  "balanceStatistics": {
+    "enabled": true,
+
+    "trackHighestBalance": true,
+    "trackDailyIncome": true,
+    "trackDailyExpenses": true
+  }
+}
