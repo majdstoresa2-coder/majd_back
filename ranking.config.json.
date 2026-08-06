@@ -1,0 +1,48 @@
+{
+  "globalRanking": {
+    "enabled": true,
+
+    "worldwideLeaderboard": true,
+
+    "regionalLeaderboard": true,
+
+    "languageBasedRanking": true
+  },
+
+  "seasons": {
+    "enabled": true,
+
+    "seasonDurationDays": 90,
+
+    "resetSeasonRankings": true,
+
+    "archivePreviousSeasons": true
+  },
+
+  "recalculation": {
+    "enabled": true,
+
+    "automaticRecalculation": true,
+
+    "recalculateAfterBattles": true,
+
+    "recalculateAfterMajorEvents": true
+  },
+
+  "advancedAnalytics": {
+    "enabled": true,
+
+    "trackRankingTrends": true,
+
+    "comparePlayers": true,
+
+    "generateRankingReports": true
+  },
+
+  "metadata": {
+    "module": "Ranking",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
