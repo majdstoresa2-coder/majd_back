@@ -1,0 +1,41 @@
+{
+  "analytics": {
+    "enabled": true,
+
+    "trackSentNotifications": true,
+    "trackDeliveredNotifications": true,
+    "trackOpenedNotifications": true,
+    "trackFailedNotifications": true
+  },
+
+  "muteSettings": {
+    "enabled": true,
+
+    "allowMuteByCategory": true,
+    "allowTemporaryMute": true,
+    "allowPermanentMute": true
+  },
+
+  "localization": {
+    "enabled": true,
+
+    "usePlayerLanguage": true,
+    "usePlayerTimeZone": true,
+    "fallbackLanguage": "en"
+  },
+
+  "engagement": {
+    "enabled": true,
+
+    "trackClickRate": true,
+    "trackDismissRate": true,
+    "trackReadRate": true
+  },
+
+  "metadata": {
+    "module": "Notification",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
