@@ -1,0 +1,52 @@
+{
+  "notifications": {
+    "enabled": true,
+
+    "notifyRewardReceived": true,
+
+    "notifyRareReward": true,
+
+    "notifyChestOpened": true,
+
+    "showRewardDetails": true
+  },
+
+  "analytics": {
+    "enabled": true,
+
+    "trackRewardsGiven": true,
+
+    "trackRewardUsage": true,
+
+    "trackMostValuableRewards": true,
+
+    "generateRewardReports": true
+  },
+
+  "history": {
+    "enabled": true,
+
+    "storePlayerRewardHistory": true,
+
+    "showRewardTimeline": true,
+
+    "allowRewardReview": true
+  },
+
+  "administration": {
+    "enabled": true,
+
+    "allowRewardManagement": true,
+
+    "allowCustomRewards": true,
+
+    "allowEventRewardConfiguration": true
+  },
+
+  "metadata": {
+    "module": "Reward",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
