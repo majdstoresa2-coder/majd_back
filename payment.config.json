@@ -1,0 +1,62 @@
+{
+  "payment": {
+    "enabled": true,
+
+    "defaultCurrency": "SAR",
+
+    "supportedCurrencies": [
+      "SAR",
+      "USD",
+      "EUR",
+      "AED",
+      "KWD",
+      "QAR",
+      "BHD"
+    ],
+
+    "requireServerValidation": true,
+
+    "grantItemsOnlyAfterVerification": true
+  },
+
+  "providers": [
+    {
+      "id": "moyasar",
+      "enabled": true,
+
+      "supportedMethods": [
+        "credit_card",
+        "apple_pay",
+        "stc_pay"
+      ]
+    },
+    {
+      "id": "stripe",
+      "enabled": false,
+
+      "supportedMethods": [
+        "credit_card",
+        "apple_pay",
+        "google_pay"
+      ]
+    }
+  ],
+
+  "orders": {
+    "generateUniqueOrderId": true,
+
+    "preventDuplicateOrders": true,
+
+    "expirationMinutes": 30
+  },
+
+  "security": {
+    "verifyWebhookSignature": true,
+
+    "verifyPaymentAmount": true,
+
+    "verifyCurrency": true,
+
+    "verifyOrderOwnership": true
+  }
+}
