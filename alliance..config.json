@@ -1,0 +1,65 @@
+{
+  "communication": {
+    "enabled": true,
+
+    "allianceChat": {
+      "enabled": true,
+      "saveHistory": true,
+      "historyLimit": 1000,
+      "allowPinnedMessages": true
+    },
+
+    "announcements": {
+      "enabled": true,
+      "onlyLeaderAndOfficers": true,
+      "maximumLength": 1000
+    }
+  },
+
+  "supportSystem": {
+    "enabled": true,
+
+    "constructionHelp": {
+      "enabled": true,
+      "maximumHelpsPerDay": 200,
+      "timeReductionSeconds": 60
+    },
+
+    "giftSystem": {
+      "enabled": true,
+      "allowDailyGifts": true,
+      "allowEventGifts": true
+    }
+  },
+
+  "allianceBuildings": {
+    "enabled": true,
+
+    "buildings": [
+      "fortress",
+      "warehouse",
+      "research_center",
+      "alliance_shop"
+    ]
+  },
+
+  "allianceResearch": {
+    "enabled": true,
+
+    "categories": [
+      "combat",
+      "economy",
+      "construction",
+      "resource_production",
+      "member_support"
+    ]
+  },
+
+  "allianceWarehouse": {
+    "enabled": true,
+
+    "allowDeposits": true,
+    "allowWithdrawals": true,
+    "logTransactions": true
+  }
+}
