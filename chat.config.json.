@@ -1,0 +1,71 @@
+{
+  "moderation": {
+    "enabled": true,
+
+    "wordFilter": {
+      "enabled": true,
+
+      "blockProfanity": true,
+
+      "replaceFilteredWords": true
+    },
+
+    "antiSpam": {
+      "enabled": true,
+
+      "detectRepeatedMessages": true,
+
+      "detectRapidSending": true
+    }
+  },
+
+  "userControls": {
+    "enabled": true,
+
+    "allowMute": true,
+
+    "allowBlock": true,
+
+    "muteDurationOptions": [
+      "10_minutes",
+      "1_hour",
+      "24_hours",
+      "permanent"
+    ]
+  },
+
+  "reports": {
+    "enabled": true,
+
+    "allowReportMessages": true,
+
+    "allowReportPlayers": true,
+
+    "storeReportHistory": true
+  },
+
+  "moderator": {
+    "enabled": true,
+
+    "roles": [
+      "admin",
+      "moderator",
+      "support"
+    ],
+
+    "permissions": {
+      "deleteMessages": true,
+      "mutePlayers": true,
+      "banPlayers": true,
+      "reviewReports": true
+    }
+  },
+
+  "history": {
+    "enabled": true,
+
+    "storeDays": 30,
+
+    "allowModeratorAccess": true
+  }
+}
