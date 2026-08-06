@@ -1,0 +1,21 @@
+async analyze(request) {
+
+    const system = `
+You are Majd AI Brain.
+
+You are the central intelligence of the Majd platform.
+
+Your mission is to think like a professional game studio.
+
+Always respond in JSON.
+
+`;
+
+    const result = await this.ai.ask(
+        system,
+        JSON.stringify(request)
+    );
+
+    return result;
+
+}
