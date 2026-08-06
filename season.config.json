@@ -1,0 +1,50 @@
+{
+  "season": {
+    "enabled": true,
+
+    "currentSeason": 1,
+
+    "autoStart": true,
+
+    "storeSeasonHistory": true
+  },
+
+  "schedule": {
+    "enabled": true,
+
+    "durationDays": 90,
+
+    "startAutomatically": true,
+
+    "endAutomatically": true
+  },
+
+  "status": {
+    "states": [
+      "upcoming",
+      "active",
+      "ending",
+      "completed"
+    ],
+
+    "allowSeasonStatusTracking": true
+  },
+
+  "playerProgress": {
+    "enabled": true,
+
+    "trackSeasonPoints": true,
+
+    "trackSeasonLevel": true,
+
+    "trackSeasonTasks": true
+  },
+
+  "seasonContent": {
+    "enabled": true,
+
+    "allowExclusiveContent": true,
+
+    "allowSeasonEvents": true
+  }
+}
