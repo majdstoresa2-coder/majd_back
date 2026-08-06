@@ -1,0 +1,60 @@
+{
+  "statistics": {
+    "enabled": true,
+
+    "track": {
+      "completedQuests": true,
+      "failedQuests": true,
+      "dailyQuestsCompleted": true,
+      "weeklyQuestsCompleted": true,
+      "achievementProgress": true,
+      "totalRewardsClaimed": true
+    }
+  },
+
+  "achievementLog": {
+    "enabled": true,
+
+    "saveHistory": true,
+    "showCompletionDate": true,
+    "allowFiltering": true
+  },
+
+  "titleSystem": {
+    "enabled": true,
+
+    "titles": [
+      {
+        "id": "rookie_adventurer",
+        "name": {
+          "ar": "المغامر المبتدئ",
+          "en": "Rookie Adventurer"
+        },
+        "unlockCondition": "complete_10_quests"
+      },
+      {
+        "id": "kingdom_champion",
+        "name": {
+          "ar": "بطل المملكة",
+          "en": "Kingdom Champion"
+        },
+        "unlockCondition": "complete_500_quests"
+      }
+    ]
+  },
+
+  "completionTracking": {
+    "enabled": true,
+
+    "showCompletionPercentage": true,
+    "trackQuestChains": true,
+    "trackCategoryProgress": true
+  },
+
+  "metadata": {
+    "module": "Quests",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
