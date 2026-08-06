@@ -1,0 +1,4 @@
+this.registry.register("designer", this.designer);
+this.registry.register("developer", this.developer);
+this.registry.register("tester", this.tester);
+this.registry.register("publisher", this.publisher);
