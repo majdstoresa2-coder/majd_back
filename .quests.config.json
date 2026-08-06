@@ -1,0 +1,65 @@
+{
+  "rewardSystem": {
+    "enabled": true,
+
+    "rewardTypes": [
+      "resources",
+      "gold",
+      "gems",
+      "experience",
+      "equipment",
+      "hero_fragments",
+      "special_items"
+    ],
+
+    "scaling": {
+      "basedOnPlayerLevel": true,
+      "basedOnQuestDifficulty": true
+    }
+  },
+
+  "achievementSystem": {
+    "enabled": true,
+
+    "categories": [
+      "combat",
+      "building",
+      "research",
+      "exploration",
+      "alliance",
+      "economy"
+    ],
+
+    "grantRewards": true
+  },
+
+  "questChains": {
+    "enabled": true,
+
+    "unlockNextQuestAfterCompletion": true,
+
+    "allowBranchingPaths": true
+  },
+
+  "resetSystem": {
+    "enabled": true,
+
+    "dailyReset": {
+      "enabled": true,
+      "time": "00:00"
+    },
+
+    "weeklyReset": {
+      "enabled": true,
+      "day": "monday",
+      "time": "00:00"
+    }
+  },
+
+  "integration": {
+    "trackBuildingProgress": true,
+    "trackBattleProgress": true,
+    "trackAllianceProgress": true,
+    "trackExplorationProgress": true
+  }
+}
