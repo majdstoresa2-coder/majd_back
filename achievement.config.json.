@@ -1,0 +1,50 @@
+{
+  "notifications": {
+    "enabled": true,
+
+    "notifyAchievementUnlocked": true,
+
+    "notifyNewLevelReached": true,
+
+    "notifyRareAchievement": true,
+
+    "showRewardNotification": true
+  },
+
+  "playerBoard": {
+    "enabled": true,
+
+    "showCompletedCount": true,
+
+    "showAchievementPoints": true,
+
+    "showRareAchievements": true
+  },
+
+  "leaderboard": {
+    "enabled": true,
+
+    "rankPlayersByAchievements": true,
+
+    "showAchievementPointsRanking": true,
+
+    "seasonalAchievementRanking": true
+  },
+
+  "advancedAnalytics": {
+    "enabled": true,
+
+    "trackAchievementTrends": true,
+
+    "trackPlayerProgress": true,
+
+    "generateReports": true
+  },
+
+  "metadata": {
+    "module": "Achievement",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
