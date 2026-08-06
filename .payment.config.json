@@ -1,0 +1,53 @@
+{
+  "fraudProtection": {
+    "enabled": true,
+
+    "checks": {
+      "duplicatePayments": true,
+      "amountMismatch": true,
+      "currencyMismatch": true,
+      "invalidWebhook": true,
+      "orderOwnership": true,
+      "velocityLimit": true
+    },
+
+    "maximumPaymentsPerMinute": 10,
+
+    "blockSuspiciousTransactions": true
+  },
+
+  "analytics": {
+    "enabled": true,
+
+    "trackSuccessfulPayments": true,
+    "trackFailedPayments": true,
+    "trackRefunds": true,
+    "trackAverageTransactionValue": true
+  },
+
+  "revenueStatistics": {
+    "enabled": true,
+
+    "trackDailyRevenue": true,
+    "trackMonthlyRevenue": true,
+    "trackTopSellingProducts": true,
+    "trackRevenueByCurrency": true
+  },
+
+  "regionalSettings": {
+    "enabled": true,
+
+    "supportRegionalPricing": true,
+
+    "supportTaxes": true,
+
+    "defaultTaxRate": 0.15
+  },
+
+  "metadata": {
+    "module": "Payment",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
