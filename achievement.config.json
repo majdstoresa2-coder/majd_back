@@ -1,0 +1,61 @@
+{
+  "achievement": {
+    "enabled": true,
+
+    "trackProgress": true,
+
+    "showOnProfile": true,
+
+    "notifyUnlock": true
+  },
+
+  "categories": {
+    "battle": {
+      "enabled": true,
+
+      "examples": [
+        "winBattles",
+        "defeatEnemies",
+        "completeWars"
+      ]
+    },
+
+    "building": {
+      "enabled": true,
+
+      "examples": [
+        "upgradeCastle",
+        "buildStructures",
+        "developKingdom"
+      ]
+    },
+
+    "exploration": {
+      "enabled": true,
+
+      "examples": [
+        "discoverRegions",
+        "exploreWorld",
+        "findTreasures"
+      ]
+    },
+
+    "social": {
+      "enabled": true,
+
+      "examples": [
+        "makeFriends",
+        "joinAlliance",
+        "helpPlayers"
+      ]
+    }
+  },
+
+  "progress": {
+    "enabled": true,
+
+    "trackCurrentProgress": true,
+
+    "trackCompletedAchievements": true
+  }
+}
