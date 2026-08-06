@@ -1,0 +1,54 @@
+{
+  "advancedContent": {
+    "enabled": true,
+
+    "allowSeasonMaps": true,
+
+    "allowSeasonMissions": true,
+
+    "allowSeasonRewardsTrack": true,
+
+    "allowExclusiveSeasonItems": true
+  },
+
+  "analytics": {
+    "enabled": true,
+
+    "trackPlayerParticipation": true,
+
+    "trackSeasonCompletionRate": true,
+
+    "trackRewardClaims": true,
+
+    "generateSeasonReports": true
+  },
+
+  "notifications": {
+    "enabled": true,
+
+    "notifySeasonStart": true,
+
+    "notifySeasonEnding": true,
+
+    "notifyRewardAvailable": true,
+
+    "notifyRankChanges": true
+  },
+
+  "history": {
+    "enabled": true,
+
+    "storePreviousSeasons": true,
+
+    "showSeasonRecords": true,
+
+    "showBestSeasonPerformance": true
+  },
+
+  "metadata": {
+    "module": "Season",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
