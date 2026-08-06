@@ -1,0 +1,4 @@
+const plan = this.planner.createPlan(analysis);
+
+console.log("Execution Plan");
+console.log(plan);
