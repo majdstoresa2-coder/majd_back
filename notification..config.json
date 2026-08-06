@@ -1,0 +1,51 @@
+{
+  "messageNotifications": {
+    "enabled": true,
+
+    "notifyPrivateMessages": true,
+    "notifyMail": true,
+    "notifyUnreadMail": true
+  },
+
+  "allianceNotifications": {
+    "enabled": true,
+
+    "notifyAllianceInvites": true,
+    "notifyAllianceWars": true,
+    "notifyAllianceAnnouncements": true,
+    "notifyAllianceHelpRequests": true
+  },
+
+  "battleNotifications": {
+    "enabled": true,
+
+    "notifyAttack": true,
+    "notifyDefense": true,
+    "notifyScoutReports": true,
+    "notifyBattleResults": true
+  },
+
+  "eventNotifications": {
+    "enabled": true,
+
+    "notifyEventStart": true,
+    "notifyEventEnding": true,
+    "notifyRewardAvailable": true
+  },
+
+  "shopNotifications": {
+    "enabled": true,
+
+    "notifyLimitedOffers": true,
+    "notifySuccessfulPurchase": true,
+    "notifyPaymentFailure": true
+  },
+
+  "scheduler": {
+    "enabled": true,
+
+    "allowScheduledNotifications": true,
+
+    "allowReminderNotifications": true
+  }
+}
