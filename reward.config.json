@@ -1,0 +1,68 @@
+{
+  "reward": {
+    "enabled": true,
+
+    "trackRewards": true,
+
+    "storeRewardHistory": true,
+
+    "notifyRewardReceived": true
+  },
+
+  "types": {
+    "currency": {
+      "enabled": true,
+
+      "items": [
+        "gold",
+        "gems",
+        "premiumCurrency"
+      ]
+    },
+
+    "resources": {
+      "enabled": true,
+
+      "items": [
+        "wood",
+        "stone",
+        "iron",
+        "food"
+      ]
+    },
+
+    "items": {
+      "enabled": true,
+
+      "allowEquipmentRewards": true,
+
+      "allowSpecialItems": true
+    }
+  },
+
+  "sources": {
+    "dailyLogin": {
+      "enabled": true,
+
+      "streakRewards": true
+    },
+
+    "achievements": {
+      "enabled": true,
+
+      "achievementRewards": true
+    },
+
+    "battles": {
+      "enabled": true,
+
+      "victoryRewards": true
+    },
+
+    "events": {
+      "enabled": true,
+
+      "eventRewards": true
+    }
+  }
+}
