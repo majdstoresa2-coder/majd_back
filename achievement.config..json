@@ -1,0 +1,59 @@
+{
+  "levels": {
+    "enabled": true,
+
+    "tiers": [
+      "bronze",
+      "silver",
+      "gold",
+      "diamond",
+      "legendary"
+    ],
+
+    "increaseDifficulty": true
+  },
+
+  "rewards": {
+    "enabled": true,
+
+    "types": [
+      "gold",
+      "gems",
+      "resources",
+      "items",
+      "experience"
+    ],
+
+    "claimAutomatically": false,
+
+    "showRewardPreview": true
+  },
+
+  "rareAchievements": {
+    "enabled": true,
+
+    "trackSpecialAchievements": true,
+
+    "showRarityLevel": true,
+
+    "allowExclusiveRewards": true
+  },
+
+  "seasonalAchievements": {
+    "enabled": true,
+
+    "eventBased": true,
+
+    "storeCompletedSeasons": true,
+
+    "allowSeasonRewards": true
+  },
+
+  "statistics": {
+    "enabled": true,
+
+    "trackCompletionRate": true,
+
+    "trackRarestAchievements": true
+  }
+}
