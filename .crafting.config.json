@@ -1,0 +1,72 @@
+{
+  "recipes": {
+    "enabled": true,
+
+    "types": [
+      {
+        "id": "basic_sword",
+        "name": {
+          "ar": "سيف عادي",
+          "en": "Basic Sword"
+        },
+        "category": "equipment",
+        "materials": {
+          "iron": 50,
+          "gold": 100
+        },
+        "craftTimeMinutes": 30
+      },
+
+      {
+        "id": "legendary_armor",
+        "name": {
+          "ar": "درع أسطوري",
+          "en": "Legendary Armor"
+        },
+        "category": "equipment",
+        "materials": {
+          "iron": 500,
+          "rare_crystal": 10,
+          "magic_part": 5
+        },
+        "craftTimeMinutes": 720
+      }
+    ]
+  },
+
+  "craftProcess": {
+    "enabled": true,
+
+    "steps": [
+      "select_recipe",
+      "check_materials",
+      "start_crafting",
+      "quality_calculation",
+      "receive_item"
+    ]
+  },
+
+  "qualitySystem": {
+    "enabled": true,
+
+    "levels": [
+      "normal",
+      "good",
+      "excellent",
+      "legendary"
+    ],
+
+    "factors": {
+      "workshopLevel": true,
+      "technologyBonus": true,
+      "specialMaterials": true
+    }
+  },
+
+  "costSystem": {
+    "enabled": true,
+
+    "increaseCostWithRarity": true,
+    "increaseTimeWithRarity": true
+  }
+}
