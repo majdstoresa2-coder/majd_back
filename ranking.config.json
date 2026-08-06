@@ -1,0 +1,51 @@
+{
+  "ranking": {
+    "enabled": true,
+
+    "updateIntervalMinutes": 60,
+
+    "storeRankingHistory": true
+  },
+
+  "categories": {
+    "players": {
+      "enabled": true,
+
+      "rankBy": [
+        "power",
+        "level",
+        "experience"
+      ]
+    },
+
+    "kingdoms": {
+      "enabled": true,
+
+      "rankBy": [
+        "territory",
+        "development",
+        "power"
+      ]
+    },
+
+    "alliances": {
+      "enabled": true,
+
+      "rankBy": [
+        "members",
+        "warPower",
+        "achievements"
+      ]
+    }
+  },
+
+  "leaderboards": {
+    "enabled": true,
+
+    "maximumEntries": 100,
+
+    "showPlayerRank": true,
+
+    "showRankChange": true
+  }
+}
