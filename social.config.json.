@@ -1,0 +1,46 @@
+{
+  "analytics": {
+    "enabled": true,
+
+    "trackFriendGrowth": true,
+    "trackFollowersGrowth": true,
+    "trackProfileViews": true,
+    "trackSocialInteractions": true
+  },
+
+  "community": {
+    "enabled": true,
+
+    "allowGlobalCommunity": true,
+
+    "allowPlayerDiscovery": true,
+
+    "allowTrendingPlayers": true
+  },
+
+  "relationshipNotifications": {
+    "enabled": true,
+
+    "notifyFriendRequest": true,
+    "notifyFriendAccepted": true,
+    "notifyNewFollower": true,
+    "notifyAchievementUnlocked": true
+  },
+
+  "advancedPrivacy": {
+    "enabled": true,
+
+    "allowOnlineStatusControl": true,
+
+    "allowMessagePermissionControl": true,
+
+    "allowProfileVisibilitySettings": true
+  },
+
+  "metadata": {
+    "module": "Social",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
