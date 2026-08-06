@@ -1,0 +1,74 @@
+{
+  "allianceWars": {
+    "enabled": true,
+
+    "warTypes": [
+      "friendly",
+      "competitive",
+      "seasonal"
+    ],
+
+    "requirements": {
+      "minimumMembers": 20,
+      "minimumAllianceLevel": 3
+    },
+
+    "matchmaking": {
+      "enabled": true,
+      "basedOnAlliancePower": true
+    }
+  },
+
+  "rankingSystem": {
+    "enabled": true,
+
+    "rankingTypes": [
+      "power",
+      "war_points",
+      "member_activity",
+      "technology_level"
+    ],
+
+    "showTopAlliances": 100
+  },
+
+  "statistics": {
+    "enabled": true,
+
+    "track": {
+      "warsWon": true,
+      "warsLost": true,
+      "resourcesDonated": true,
+      "researchCompleted": true,
+      "memberGrowth": true
+    }
+  },
+
+  "achievementSystem": {
+    "enabled": true,
+
+    "achievements": [
+      {
+        "id": "first_alliance_victory",
+        "name": {
+          "ar": "أول انتصار",
+          "en": "First Victory"
+        }
+      },
+      {
+        "id": "legendary_alliance",
+        "name": {
+          "ar": "التحالف الأسطوري",
+          "en": "Legendary Alliance"
+        }
+      }
+    ]
+  },
+
+  "metadata": {
+    "module": "Alliance",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
