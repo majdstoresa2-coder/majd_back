@@ -1,0 +1,87 @@
+{
+  "equipment": {
+    "enabled": true,
+
+    "levelSystem": {
+      "minimumLevel": 1,
+      "maximumLevel": 100
+    },
+
+    "equipmentSlots": [
+      {
+        "id": "weapon",
+        "name": {
+          "ar": "سلاح",
+          "en": "Weapon"
+        }
+      },
+      {
+        "id": "armor",
+        "name": {
+          "ar": "درع",
+          "en": "Armor"
+        }
+      },
+      {
+        "id": "helmet",
+        "name": {
+          "ar": "خوذة",
+          "en": "Helmet"
+        }
+      },
+      {
+        "id": "accessory",
+        "name": {
+          "ar": "إكسسوار",
+          "en": "Accessory"
+        }
+      }
+    ],
+
+    "raritySystem": {
+      "levels": [
+        "common",
+        "rare",
+        "epic",
+        "legendary",
+        "mythic"
+      ],
+
+      "rarityBonus": true
+    }
+  },
+
+  "equipmentTypes": [
+    {
+      "id": "swords",
+      "name": {
+        "ar": "السيوف",
+        "en": "Swords"
+      },
+      "effects": {
+        "attackBonus": true
+      }
+    },
+
+    {
+      "id": "heavy_armor",
+      "name": {
+        "ar": "الدروع الثقيلة",
+        "en": "Heavy Armor"
+      },
+      "effects": {
+        "defenseBonus": true
+      }
+    }
+  ],
+
+  "heroEquipment": {
+    "enabled": true,
+
+    "effects": {
+      "increaseHeroPower": true,
+      "increaseArmyStats": true,
+      "unlockSpecialAbilities": true
+    }
+  }
+}
