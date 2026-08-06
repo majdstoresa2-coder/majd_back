@@ -1,0 +1,79 @@
+{
+  "battleEvents": {
+    "enabled": true,
+
+    "types": [
+      {
+        "id": "pvp_arena",
+        "name": {
+          "ar": "ساحة PvP",
+          "en": "PvP Arena"
+        },
+        "maxParticipants": 100
+      },
+      {
+        "id": "pve_invasion",
+        "name": {
+          "ar": "غزو PvE",
+          "en": "PvE Invasion"
+        },
+        "maxParticipants": 500
+      }
+    ]
+  },
+
+  "bossEvents": {
+    "enabled": true,
+
+    "bosses": [
+      {
+        "id": "ancient_dragon",
+        "name": {
+          "ar": "التنين القديم",
+          "en": "Ancient Dragon"
+        },
+        "difficulty": "legendary"
+      },
+      {
+        "id": "dark_titan",
+        "name": {
+          "ar": "العملاق المظلم",
+          "en": "Dark Titan"
+        },
+        "difficulty": "mythic"
+      }
+    ]
+  },
+
+  "rewardSystem": {
+    "enabled": true,
+
+    "rewardTypes": [
+      "resources",
+      "gold",
+      "gems",
+      "equipment",
+      "hero_fragments",
+      "exclusive_items"
+    ]
+  },
+
+  "leaderboard": {
+    "enabled": true,
+
+    "rankingTypes": [
+      "damage",
+      "score",
+      "participation",
+      "completion_time"
+    ],
+
+    "showTopPlayers": 100
+  },
+
+  "scheduleRules": {
+    "allowAutomaticStart": true,
+    "allowAutomaticEnd": true,
+    "repeatSupported": true
+  }
+}
