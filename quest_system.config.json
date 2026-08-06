@@ -1,0 +1,67 @@
+{
+  "questSystem": {
+    "enabled": true,
+
+    "trackQuestProgress": true,
+
+    "storeQuestHistory": true,
+
+    "notifyQuestUpdates": true
+  },
+
+  "types": {
+    "daily": {
+      "enabled": true,
+
+      "resetPeriod": "daily",
+
+      "allowMultipleTasks": true
+    },
+
+    "weekly": {
+      "enabled": true,
+
+      "resetPeriod": "weekly",
+
+      "allowMultipleTasks": true
+    },
+
+    "seasonal": {
+      "enabled": true,
+
+      "linkedToSeason": true,
+
+      "exclusiveRewards": true
+    },
+
+    "story": {
+      "enabled": true,
+
+      "progressBased": true,
+
+      "unlockByLevel": true
+    }
+  },
+
+  "questProgress": {
+    "enabled": true,
+
+    "trackObjectives": true,
+
+    "trackCompletionRate": true,
+
+    "saveIncompleteQuests": true
+  },
+
+  "status": {
+    "states": [
+      "locked",
+      "available",
+      "active",
+      "completed",
+      "claimed"
+    ],
+
+    "allowStatusTracking": true
+  }
+}
