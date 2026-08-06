@@ -1,0 +1,47 @@
+{
+  "walletAnalytics": {
+    "enabled": true,
+
+    "trackCurrencyFlow": true,
+    "trackTopEarners": true,
+    "trackTopSpenders": true,
+    "trackTransferVolume": true
+  },
+
+  "backup": {
+    "enabled": true,
+
+    "automaticBackup": true,
+
+    "backupIntervalHours": 24,
+
+    "allowRestore": true
+  },
+
+  "financialReports": {
+    "enabled": true,
+
+    "generateDailyReport": true,
+    "generateWeeklyReport": true,
+    "generateMonthlyReport": true
+  },
+
+  "multiCurrencySupport": {
+    "enabled": true,
+
+    "supportedWallets": [
+      "gold",
+      "gems",
+      "tokens"
+    ],
+
+    "allowIndependentBalances": true
+  },
+
+  "metadata": {
+    "module": "Wallet",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
