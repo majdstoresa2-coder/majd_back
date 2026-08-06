@@ -1,0 +1,71 @@
+{
+  "events": {
+    "enabled": true,
+
+    "globalSettings": {
+      "timezone": "Asia/Riyadh",
+      "allowConcurrentEvents": true,
+      "announceBeforeStartMinutes": 60,
+      "announceBeforeEndMinutes": 30
+    },
+
+    "categories": [
+      {
+        "id": "seasonal",
+        "name": {
+          "ar": "الفعاليات الموسمية",
+          "en": "Seasonal Events"
+        }
+      },
+      {
+        "id": "global",
+        "name": {
+          "ar": "الفعاليات العالمية",
+          "en": "Global Events"
+        }
+      },
+      {
+        "id": "kingdom",
+        "name": {
+          "ar": "فعاليات المملكة",
+          "en": "Kingdom Events"
+        }
+      },
+      {
+        "id": "special",
+        "name": {
+          "ar": "الفعاليات الخاصة",
+          "en": "Special Events"
+        }
+      }
+    ]
+  },
+
+  "sampleEvents": [
+    {
+      "id": "spring_festival",
+      "category": "seasonal",
+      "name": {
+        "ar": "مهرجان الربيع",
+        "en": "Spring Festival"
+      },
+      "durationHours": 168,
+      "repeat": "yearly"
+    },
+    {
+      "id": "kingdom_war",
+      "category": "kingdom",
+      "name": {
+        "ar": "حرب الممالك",
+        "en": "Kingdom War"
+      },
+      "durationHours": 48,
+      "repeat": "monthly"
+    }
+  ],
+
+  "availability": {
+    "minimumPlayerLevel": 5,
+    "requireAccountVerification": false
+  }
+}
