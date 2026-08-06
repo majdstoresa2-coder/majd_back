@@ -1,0 +1,1 @@
+this.thinking = new ThinkingEngine(this.ai);
