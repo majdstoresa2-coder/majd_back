@@ -1,0 +1,48 @@
+{
+  "salesStatistics": {
+    "enabled": true,
+
+    "track": {
+      "totalSales": true,
+      "totalRevenue": true,
+      "topSellingProducts": true,
+      "mostViewedProducts": true,
+      "couponUsage": true
+    }
+  },
+
+  "purchaseHistory": {
+    "enabled": true,
+
+    "storeHistory": true,
+    "maximumHistoryRecords": 1000,
+
+    "allowPlayerViewHistory": true
+  },
+
+  "featuredProducts": {
+    "enabled": true,
+
+    "maximumFeaturedItems": 10,
+
+    "automaticSelection": true,
+
+    "manualOverride": true
+  },
+
+  "shopAnalytics": {
+    "enabled": true,
+
+    "trackConversionRate": true,
+    "trackAverageOrderValue": true,
+    "trackPopularCategories": true,
+    "trackLimitedOfferPerformance": true
+  },
+
+  "metadata": {
+    "module": "Shop",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
