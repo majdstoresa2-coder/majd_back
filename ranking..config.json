@@ -1,0 +1,57 @@
+{
+  "timePeriods": {
+    "enabled": true,
+
+    "daily": true,
+
+    "weekly": true,
+
+    "monthly": true,
+
+    "seasonal": true
+  },
+
+  "combatRankings": {
+    "enabled": true,
+
+    "categories": [
+      "battlePower",
+      "victories",
+      "warsWon",
+      "troopsStrength"
+    ]
+  },
+
+  "economyRankings": {
+    "enabled": true,
+
+    "categories": [
+      "gold",
+      "resources",
+      "tradeVolume",
+      "wealth"
+    ]
+  },
+
+  "rewards": {
+    "enabled": true,
+
+    "rewardTopPlayers": true,
+
+    "rewardTopAlliances": true,
+
+    "rewardTopKingdoms": true,
+
+    "rewardCycle": "monthly"
+  },
+
+  "statistics": {
+    "enabled": true,
+
+    "trackRankHistory": true,
+
+    "trackRankChanges": true,
+
+    "generateReports": true
+  }
+}
