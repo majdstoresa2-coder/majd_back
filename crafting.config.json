@@ -1,0 +1,71 @@
+{
+  "crafting": {
+    "enabled": true,
+
+    "workshopSystem": {
+      "enabled": true,
+
+      "levels": {
+        "minimum": 1,
+        "maximum": 100
+      },
+
+      "effects": {
+        "increaseCraftSpeed": true,
+        "unlockRecipes": true,
+        "improveQuality": true
+      }
+    },
+
+    "materials": [
+      {
+        "id": "iron",
+        "name": {
+          "ar": "الحديد",
+          "en": "Iron"
+        },
+        "type": "basic"
+      },
+      {
+        "id": "rare_crystal",
+        "name": {
+          "ar": "الكريستال النادر",
+          "en": "Rare Crystal"
+        },
+        "type": "rare"
+      },
+      {
+        "id": "magic_part",
+        "name": {
+          "ar": "قطعة سحرية",
+          "en": "Magic Part"
+        },
+        "type": "special"
+      }
+    ]
+  },
+
+  "craftCategories": [
+    {
+      "id": "equipment",
+      "name": {
+        "ar": "معدات",
+        "en": "Equipment"
+      }
+    },
+    {
+      "id": "items",
+      "name": {
+        "ar": "عناصر",
+        "en": "Items"
+      }
+    },
+    {
+      "id": "upgrade_materials",
+      "name": {
+        "ar": "مواد تطوير",
+        "en": "Upgrade Materials"
+      }
+    }
+  ]
+}
